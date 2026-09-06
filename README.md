@@ -15,8 +15,8 @@ Codex and its built-in GPT image workflow; portable to compatible Skill runtimes
 
 </div>
 
-> **Quick start after GitHub publication:** install the router and all seven style
-> Skills, attach an image, then name a style or let Image Skillbook recommend one.
+> **Quick start:** install the router and all seven style Skills, attach an image,
+> then name a style or let Image Skillbook recommend one.
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
@@ -393,7 +393,7 @@ Verify subject, style, text, fidelity, and geometry
 
 ## Installation
 
-After GitHub publication, install the complete pack with the standard Skills CLI:
+Install the complete pack with the standard Skills CLI:
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \

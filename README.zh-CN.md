@@ -10,8 +10,8 @@
 
 </div>
 
-> **GitHub 公开发布后快速开始：**一次安装全部 8 个 Skill，上传图片，然后
-> 直接点名风格，或让 Image Skillbook 帮你选择。
+> **快速开始：**一次安装全部 8 个 Skill，上传图片，然后直接点名风格，
+> 或让 Image Skillbook 帮你选择。
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
@@ -202,7 +202,7 @@ Image Skillbook 的做法是：
 
 ## 安装
 
-GitHub 公开发布后，安装整个 Skill Pack：
+安装整个 Skill Pack：
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \

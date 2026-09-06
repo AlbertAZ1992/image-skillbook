@@ -1,0 +1,9 @@
+interface:
+  display_name: "Painted Editorial Reconstruction"
+  short_description: "Rebuild a photo with broad painted gestures"
+  default_prompt: >-
+    Use $painted-editorial-reconstruction to retell this photograph with broad
+    painterly gestures while preserving the source composition.
+
+policy:
+  allow_implicit_invocation: true

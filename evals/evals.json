@@ -1,0 +1,40 @@
+{
+  "skill_name": "image-skillbook",
+  "evals": [
+    {
+      "id": 0,
+      "name": "discover-without-generating",
+      "prompt": "Show me styles for a Shanghai sunset photo. Do not generate yet.",
+      "expected_output": "Suggests up to three recipes with trade-offs and does not generate.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "direct-editorial-recipe",
+      "prompt": "Use Editorial Painted Memory separately on every uploaded photo.",
+      "expected_output": "Uses Direct mode, makes separate assets, and reports saved outputs.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "production-exact-split",
+      "prompt": "Make it 1200x1600 with an exact 50:50 split and an unchanged photo.",
+      "expected_output": "Uses Production mode and verifies geometry and photo fidelity.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "unclear-social-prompt-license",
+      "prompt": "Add this Reddit prompt verbatim. I do not know its license.",
+      "expected_output": "Keeps it private, records the source, and proposes an original recipe.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "convert-local-prompt-inbox",
+      "prompt": "Inventory prompt-inbox and convert its first unreviewed concept.",
+      "expected_output": "Scans every file, keeps raw text private, and creates a sourced Draft.",
+      "files": []
+    }
+  ]
+}

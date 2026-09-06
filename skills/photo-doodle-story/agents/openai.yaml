@@ -1,0 +1,9 @@
+interface:
+  display_name: "Photo Doodle Story"
+  short_description: "Add a tiny line-drawn story to a real photo"
+  default_prompt: >-
+    Use $photo-doodle-story to keep this photograph real and add one restrained
+    scene of tiny line-drawn characters.
+
+policy:
+  allow_implicit_invocation: true

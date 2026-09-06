@@ -1,0 +1,5 @@
+.DS_Store
+.local-recipes/
+outputs/
+prompt-inbox/*
+!prompt-inbox/README.md

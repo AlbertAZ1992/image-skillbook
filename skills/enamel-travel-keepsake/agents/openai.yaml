@@ -1,0 +1,9 @@
+interface:
+  display_name: "Enamel Travel Keepsake"
+  short_description: "Turn a place photo into an enamel keepsake"
+  default_prompt: >-
+    Use $enamel-travel-keepsake to turn this place photo into a refined
+    collectible enamel object.
+
+policy:
+  allow_implicit_invocation: true

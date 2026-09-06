@@ -1,0 +1,9 @@
+interface:
+  display_name: "Rubber Stamp Travel Journal"
+  short_description: "Make a carved-ink travel journal image"
+  default_prompt: >-
+    Use $rubber-stamp-travel-journal to pair this place photograph with a
+    tactile multi-color carved stamp.
+
+policy:
+  allow_implicit_invocation: true

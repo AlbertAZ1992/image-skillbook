@@ -1,0 +1,9 @@
+interface:
+  display_name: "Crayon Memory Postcard"
+  short_description: "Pair a photo with a warm crayon memory"
+  default_prompt: >-
+    Use $crayon-memory-postcard to pair this photograph with a warm wax-crayon
+    recollection in a finished postcard composition.
+
+policy:
+  allow_implicit_invocation: true

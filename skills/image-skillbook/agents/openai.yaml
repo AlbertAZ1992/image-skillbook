@@ -1,0 +1,8 @@
+interface:
+  display_name: "Image Skillbook"
+  short_description: "Choose and run curated visual image Skills"
+  default_prompt: >-
+    Use $image-skillbook to choose and apply the best visual style to this image.
+
+policy:
+  allow_implicit_invocation: true

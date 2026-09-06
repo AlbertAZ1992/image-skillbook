@@ -1,0 +1,9 @@
+interface:
+  display_name: "Editorial Painted Memory"
+  short_description: "Turn a photo into an acrylic paper memory"
+  default_prompt: >-
+    Use $editorial-painted-memory to transform this photo into a restrained
+    editorial painting while preserving its recognizable composition.
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.1.0",
+  "recipes": [
+    {
+      "id": "editorial-painted-memory",
+      "name": "Editorial Painted Memory",
+      "status": "draft",
+      "default_mode": "direct",
+      "file": "references/recipes/editorial-painted-memory.md",
+      "skill": "skills/editorial-painted-memory/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A vertical photo-and-paper-illustration editorial poster",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; raw prompt retained in local ignored inbox"
+      },
+      "tested_with": [
+        "ChatGPT image generation; underlying model not confirmed",
+        "OpenAI built-in image generation; 4 sunset-series inputs; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/editorial-painted-memory-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    },
+    {
+      "id": "enamel-travel-keepsake",
+      "name": "Enamel Travel Keepsake",
+      "status": "draft",
+      "default_mode": "adaptive",
+      "file": "references/recipes/enamel-travel-keepsake.md",
+      "skill": "skills/enamel-travel-keepsake/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A collectible enamel-style souvenir derived from a photo",
+      "provenance": {
+        "kind": "original",
+        "source_url": null,
+        "license": "MIT"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/enamel-travel-keepsake-sunset.webp",
+          "mode": "adaptive"
+        }
+      ]
+    },
+    {
+      "id": "crayon-memory-postcard",
+      "name": "Crayon Memory Postcard",
+      "status": "draft",
+      "default_mode": "production",
+      "file": "references/recipes/crayon-memory-postcard.md",
+      "skill": "skills/crayon-memory-postcard/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A source-faithful photograph paired with a crayon memory scene",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; raw prompt retained in local ignored inbox"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; sunset source; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/crayon-memory-postcard-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    },
+    {
+      "id": "rubber-stamp-travel-journal",
+      "name": "Rubber Stamp Travel Journal",
+      "status": "draft",
+      "default_mode": "production",
+      "file": "references/recipes/rubber-stamp-travel-journal.md",
+      "skill": "skills/rubber-stamp-travel-journal/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A real place paired with a small multi-color field-journal stamp",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; two raw variants retained in local ignored inbox"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; sunset source; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/rubber-stamp-travel-journal-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    },
+    {
+      "id": "painted-editorial-reconstruction",
+      "name": "Painted Editorial Reconstruction",
+      "status": "draft",
+      "default_mode": "production",
+      "file": "references/recipes/painted-editorial-reconstruction.md",
+      "skill": "skills/painted-editorial-reconstruction/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A photograph paired with a broad painterly reconstruction",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; raw prompt retained in local ignored inbox"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; sunset source; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/painted-editorial-reconstruction-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    },
+    {
+      "id": "photo-doodle-story",
+      "name": "Photo Doodle Story",
+      "status": "draft",
+      "default_mode": "production",
+      "file": "references/recipes/photo-doodle-story.md",
+      "skill": "skills/photo-doodle-story/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A real photographic subject interacting with tiny line-drawn figures",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; bilingual raw variants retained locally"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; sunset source; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/photo-doodle-story-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    },
+    {
+      "id": "impasto-miniature-world",
+      "name": "Impasto Miniature World",
+      "status": "draft",
+      "default_mode": "production",
+      "file": "references/recipes/impasto-miniature-world.md",
+      "skill": "skills/impasto-miniature-world/SKILL.md",
+      "inputs": [
+        "photo"
+      ],
+      "output": "A real photograph paired with a tactile oil-paint miniature world",
+      "provenance": {
+        "kind": "inspired",
+        "source_url": null,
+        "license": "MIT",
+        "source_status": "Unresolved; raw prompt retained in local ignored inbox"
+      },
+      "tested_with": [
+        "OpenAI built-in image generation; sunset source; 2026-09-06"
+      ],
+      "examples": [
+        {
+          "source": "assets/examples/source-sunset.webp",
+          "output": "assets/examples/impasto-miniature-world-sunset.webp",
+          "mode": "production"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+interface:
+  display_name: "Impasto Miniature World"
+  short_description: "Sculpt a photo into a thick-paint miniature"
+  default_prompt: >-
+    Use $impasto-miniature-world to rebuild this photograph as a tactile
+    miniature world made from sculptural oil paint.
+
+policy:
+  allow_implicit_invocation: true

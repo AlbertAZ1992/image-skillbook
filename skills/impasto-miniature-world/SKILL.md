@@ -15,14 +15,18 @@ Create one independent poster per photo and preserve every source non-destructiv
 
 Use equal horizontal regions on a 3:4 vertical canvas. Keep the upper half photographic.
 Translate the lower scene into a compact paint island on white textured paper. Preserve
-the decisive identity, pose, relationship, and source colors at miniature scale. Build
-forms from thick directional palette-knife ridges, dragged organic edges, tiny cast
-shadows, and selective luminous glaze. Leave visible paper around the island.
+the decisive identity, pose, relationship, and memorable source colors at miniature
+scale, while allowing a poetic environmental leap: a skyline may become a coastal road,
+a room may open into a garden, or a cloud may become luminous terrain. The transformation
+must grow from a visible source cue rather than a stock fantasy backdrop.
 
-Choose a source-appropriate ground device such as water, path, coast, street, or planted
-terrain. Do not invent a stock dreamscape that erases the actual setting. Avoid smooth
-airbrush, flat illustration, plastic 3D, rectangular masking, muddy sepia, neon, generic
-figurines, or text overlapping the painted subject.
+Let the miniature occupy roughly 60–75% of the lower panel. Build forms from extreme
+palette-knife ridges, dragged organic edges, tiny cast shadows, and selective luminous
+glaze. Use a vivid, alive source-related palette; retain visible paper around the island.
+Optional calligraphic title, small subtitle, or reference number may appear in the
+negative space when supplied or clearly appropriate. Avoid smooth airbrush, flat
+illustration, plastic 3D, rectangular masking, muted Morandi palettes, muddy sepia,
+generic figurines, and text overlapping the painted subject.
 
 Use the best available image tool. Generate the lower artwork separately when exact
 source fidelity and equal halves matter, then assemble deterministically. Verify canvas,

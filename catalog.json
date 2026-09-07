@@ -35,26 +35,27 @@
       "id": "enamel-travel-keepsake",
       "name": "Enamel Travel Keepsake",
       "status": "draft",
-      "default_mode": "adaptive",
+      "default_mode": "production",
       "file": "references/recipes/enamel-travel-keepsake.md",
       "skill": "skills/enamel-travel-keepsake/SKILL.md",
       "inputs": [
         "photo"
       ],
-      "output": "A collectible enamel-style souvenir derived from a photo",
+      "output": "A 3:4 poster with a small enamel keepsake above the source photo",
       "provenance": {
-        "kind": "original",
+        "kind": "inspired",
         "source_url": null,
-        "license": "MIT"
+        "license": "MIT",
+        "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; 2026-09-06"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
       ],
       "examples": [
         {
           "source": "assets/examples/source-sunset.webp",
           "output": "assets/examples/enamel-travel-keepsake-sunset.webp",
-          "mode": "adaptive"
+          "mode": "production"
         }
       ]
     },
@@ -104,7 +105,7 @@
         "source_status": "Unresolved; two raw variants retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; sunset source; 2026-09-06"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
       ],
       "examples": [
         {
@@ -188,7 +189,7 @@
         "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; sunset source; 2026-09-06"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
       ],
       "examples": [
         {

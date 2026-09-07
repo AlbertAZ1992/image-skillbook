@@ -13,7 +13,7 @@ review checks. The raw Prompt Inbox entries and the external
 - `editorial-painted-memory-sunset.webp`: complete Editorial Painted Memory
   example in Production mode.
 - `enamel-travel-keepsake-sunset.webp`: Enamel Travel Keepsake example in
-  Adaptive mode.
+  Production mode.
 - `crayon-memory-postcard-sunset.webp`: complete Crayon Memory Postcard example
   in Production mode.
 - `rubber-stamp-travel-journal-sunset.webp`: complete Rubber Stamp Travel Journal
@@ -34,10 +34,11 @@ review checks. The raw Prompt Inbox entries and the external
 - `editorial-painted-memory-cloud-study.webp`: generated Editorial Painted
   Memory panel study.
 
-Six Production examples combine an unchanged normalized source region with a
-generated style panel on an exact 1536×2048 canvas. The Enamel example is a
-standalone generated product interpretation. All seven were created on 2026-09-06
-as Draft evaluation evidence and have not yet earned Featured status.
+All seven main examples use an exact 1536×2048 canvas. Production examples keep a
+normalized source region intact and combine it with a generated style panel. Enamel,
+Rubber Stamp, and Impasto were regenerated from their corrected standalone Skills on
+2026-09-07; the remaining first-pass examples were created on 2026-09-06. All remain
+Draft evaluation evidence and have not yet earned Featured status.
 
 The three additional Editorial outputs are lower-panel studies. They verify that
 the recipe can retain a dark edge, a two-building frame, and a cloud-only diagonal

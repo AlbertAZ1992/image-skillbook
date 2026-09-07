@@ -11,8 +11,10 @@ metadata:
 
 # Rubber Stamp Travel Journal
 
-Create one independent spread per photo. Use equal top/bottom regions for a 3:4 portrait
-or equal left/right regions for a 4:3 landscape, following the requested delivery.
+Create one independent spread per photo. Use equal left/right regions for both supported
+deliveries: 3:4 portrait or 4:3 landscape. Place the source photograph on the left and
+the aged-paper stamp field on the right. Never convert the portrait layout to a stacked
+top/bottom composition.
 
 Keep the photographic region source-faithful. On warm aged paper, compress the place to
 its few location-specific contours: skyline, roof, tower, terrain, road, shoreline, or
@@ -26,5 +28,6 @@ perfectly uniform ink. Add a small typewriter-like field note only from supplied
 certain facts.
 
 Use the best available image tool. When geometry or source fidelity is exact, generate
-the paper-and-stamp region separately and assemble deterministically. Verify orientation,
-equal regions, unchanged source, place recognition, physical print texture, and text.
+the right paper-and-stamp region separately and assemble deterministically. Verify
+orientation, equal vertical regions, unchanged left source, place recognition, physical
+print texture, and text.

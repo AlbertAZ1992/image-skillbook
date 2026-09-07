@@ -28,7 +28,7 @@ feels hand-carved and printed into an aged field journal.
   </tr>
 </table>
 
-This example uses Production mode for an exact 3:4 canvas and source-locked split.
+This example uses Production mode for an exact 3:4 canvas with equal left/right panels.
 
 ## Install
 
@@ -41,12 +41,13 @@ npx skills add AlbertAZ1992/image-skillbook \
 
 ```text
 Use $rubber-stamp-travel-journal on this place photograph.
-Keep the photo unchanged and print a small carved-ink interpretation below it.
+Keep the photo on the left and print a small carved-ink interpretation on paper at right.
 ```
 
 ## Visual contract
 
-- Preserve the photographic region.
+- Keep equal left/right regions in both portrait and landscape layouts.
+- Preserve the photographic region on the left.
 - Reduce the place to a few location-specific contours.
 - Use two to four ink layers, dry gaps, broken edges, and registration drift.
 - Avoid circular seals, postage motifs, smooth vectors, and invented geography.

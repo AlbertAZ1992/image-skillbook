@@ -28,14 +28,16 @@ enough white space to make the relief feel precious.
 - Preserve identity, pose, clothing, composition, and natural light in the upper half.
 - Reduce the lower subjects to tiny figurative forms without losing decisive colors
   or gestures.
-- Translate source terrain into one fitting ground device such as shallow water, a
-  path, coast, street, or planted island; do not change setting arbitrarily.
+- Translate a visible source cue into a poetic environment such as shallow water, a
+  coastal road, planted terrain, or luminous cloud-land. The new environment may be
+  dreamlike, but it must remain compositionally connected to the source.
 - Use thick directional paint on clouds, ground, foliage, and highlights, with
   selective translucent glaze for light and water.
-- Keep the paint island within roughly two thirds of the lower region.
-- Derive a vivid but controlled palette from the source rather than forcing preset
-  candy colors.
-- Keep optional title and reference text small and outside the painted subject.
+- Keep the paint island within roughly 60–75% of the lower region.
+- Derive a vivid, alive palette from the source; preserve luminous accents and strong
+  color relationships rather than muting them into a fashionable preset.
+- Allow an optional large calligraphic title with a small subtitle or reference number
+  in the negative space, but never overlap the painted subject.
 
 ## Production finishing
 
@@ -46,8 +48,8 @@ normalized source for exact 3:4 geometry and a verified equal split.
 
 - flat digital illustration, smooth airbrush, or plastic-looking 3D;
 - hard rectangular paint borders or perfectly clipped edges;
-- muddy sepia, arbitrary desaturation, neon, or cheap candy color;
-- invented dramatic scenery that erases the source setting;
+- muddy sepia, arbitrary desaturation, muted Morandi color, neon, or cheap candy color;
+- unrelated stock scenery with no visible bridge back to the source;
 - distorted people or generic figurines; and
 - typography overlapping the paint island or competing for attention.
 

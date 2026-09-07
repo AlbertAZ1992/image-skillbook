@@ -41,15 +41,16 @@ npx skills add AlbertAZ1992/image-skillbook \
 
 ```text
 Use $impasto-miniature-world on this photograph.
-Keep the photo intact and rebuild the scene as a tactile paint island below it.
+Keep the photo intact and make the lower paint island vivid, sculptural, and dreamlike.
 ```
 
 ## Visual contract
 
 - Preserve the photographic upper half.
-- Keep the decisive identity, relationship, and source colors at miniature scale.
-- Build thick directional ridges, organic edges, tiny shadows, and visible relief.
-- Avoid flat digital art, plastic 3D, muddy sepia, and generic dreamscapes.
+- Keep decisive identity and source cues while allowing a poetic environmental leap.
+- Fill roughly 60–75% of the lower panel with extreme ridges and visible relief.
+- Preserve vivid source-related color instead of muting it into Morandi or sepia.
+- Avoid flat digital art, plastic 3D, and unrelated stock dreamscapes.
 
 [Read the agent instructions](SKILL.md) ·
 [Inspect the Recipe](../../references/recipes/impasto-miniature-world.md)

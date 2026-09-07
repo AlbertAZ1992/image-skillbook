@@ -2,8 +2,7 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Compress a place photograph into a believable die-cut enamel souvenir built from
-its decisive silhouette, identity cues, and source colors.
+Pair an authentic photograph with a small premium enamel emblem on a clean color field.
 
 ## Example
 
@@ -28,8 +27,8 @@ its decisive silhouette, identity cues, and source colors.
   </tr>
 </table>
 
-This example uses Adaptive mode to turn the skyline and cloud into a
-manufacturable object rather than mapping the photograph onto a badge.
+This example uses Production mode: the generated keepsake panel sits above an unchanged
+normalized source crop on an exact 3:4 canvas.
 
 ## Install
 
@@ -42,15 +41,17 @@ npx skills add AlbertAZ1992/image-skillbook \
 
 ```text
 Use $enamel-travel-keepsake on this place photograph.
-Create one refined collectible object without inventing a location name.
+Keep the photograph in the lower half and omit any uncertain location name.
 ```
 
 ## Visual contract
 
-- Derive the outer contour from a recognizable source silhouette.
+- Use an exact 3:4 poster with equal upper and lower regions.
+- Keep the lower photograph source-faithful.
+- Center one small magnet on a clean source-derived color field above it.
+- Derive the magnet contour from one recognizable person, landmark, or landscape motif.
 - Use narrow metal boundaries and three to six source-derived enamel colors.
-- Present believable thickness, directional light, and a small contact shadow.
-- Avoid generic shields, toy plastic, chrome, glitter, packaging, and fake text.
+- Avoid standalone product scenes, generic shields, toy plastic, and fake text.
 
 [Read the agent instructions](SKILL.md) ·
 [Inspect the Recipe](../../references/recipes/enamel-travel-keepsake.md)

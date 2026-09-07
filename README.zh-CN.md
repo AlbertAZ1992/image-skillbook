@@ -2,266 +2,225 @@
 
 # Image Skillbook
 
-### 一个面向 Codex + GPT Image 的多 Skill 图像风格包。
+### 7 种可重复使用的图片处理方法，打包成可以独立安装的 Skills。
 
-1 个风格路由 Skill，7 个可独立调用的视觉 Skill，7 套真实示例。
+优先面向 Codex + GPT Image。1 个总控负责选择风格，7 个视觉 Skill 都能单独安装。
+
+[![可安装 Skills](https://img.shields.io/badge/可安装_Skills-8-6B5B95)](#这个包到底是什么)
+[![视觉风格](https://img.shields.io/badge/视觉风格-7-EF8354)](#7-种风格的真实效果)
+[![License](https://img.shields.io/badge/license-MIT-2A9D8F)](LICENSE)
 
 [English](README.md)
 
 </div>
 
-> **快速开始：**一次安装全部 8 个 Skill，上传图片，然后直接点名风格，
-> 或让 Image Skillbook 帮你选择。
+## 快速开始
+
+一次安装全部 8 个 Skill：
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
   --skill '*' --global --agent codex --yes
 ```
 
-```text
-用 $image-skillbook 为这张照片推荐三个最合适的风格，先不要生成。
-```
-
-## 先看全部效果
-
-下面 7 个结果来自同一张原始照片，分别由 7 个独立 Skill 完成。它们是
-真实输出，不是提示词截图或效果占位图。
+新开一个 Codex 会话，上传照片后直接点名风格：
 
 ```text
-$image-skillbook → 选择 Skill → 针对图片编译 → 生成 → 验收 → 保存资产
+用 $editorial-painted-memory 处理这张照片。
 ```
 
-生成时没有把 Prompt Inbox 中恢复的第三方原始 Prompt 直接发送给图片模型，
-也没有调用外部的 `photo-abstract-editorial` Skill。
+或者先让总控比较：
+
+```text
+用 $image-skillbook 为这张照片推荐最多三个风格，解释差异，先不要生成。
+```
+
+## 7 种风格的真实效果
+
+下面全部使用同一张原照片，让差异只来自 Skill，而不是题材。示例都经过实际
+生成和验收，不是提示词截图或效果占位图。
 
 <p align="center">
-  <img
-    src="assets/examples/source-sunset.webp"
-    alt="城市天际线与珊瑚色晚霞的原始照片"
-    width="760"
-  >
+  <img src="assets/examples/source-sunset.webp" alt="城市天际线与珊瑚色晚霞原图" width="760">
 </p>
 
 <table>
   <tr>
-    <th width="50%">
-      <a href="skills/editorial-painted-memory/README.md">
-        Editorial Painted Memory
-      </a>
-    </th>
-    <th width="50%">
-      <a href="skills/enamel-travel-keepsake/README.md">
-        Enamel Travel Keepsake
-      </a>
-    </th>
+    <th width="50%"><a href="skills/editorial-painted-memory/README.md">Editorial Painted Memory</a></th>
+    <th width="50%"><a href="skills/enamel-travel-keepsake/README.md">Enamel Travel Keepsake</a></th>
   </tr>
   <tr>
-    <td>
-      <img
-        src="assets/examples/editorial-painted-memory-sunset.webp"
-        alt="原照片与纸张丙烯记忆组成的编辑海报"
-      >
-    </td>
-    <td>
-      <img
-        src="assets/examples/enamel-travel-keepsake-sunset.webp"
-        alt="从晚霞与天际线提炼出的珐琅纪念物"
-      >
-    </td>
+    <td><img src="assets/examples/editorial-painted-memory-sunset.webp" alt="稀疏丙烯纸张记忆"></td>
+    <td><img src="assets/examples/enamel-travel-keepsake-sunset.webp" alt="珐琅纪念物与真实原照片海报"></td>
   </tr>
   <tr>
-    <th>
-      <a href="skills/crayon-memory-postcard/README.md">
-        Crayon Memory Postcard
-      </a>
-    </th>
-    <th>
-      <a href="skills/rubber-stamp-travel-journal/README.md">
-        Rubber Stamp Travel Journal
-      </a>
-    </th>
+    <td>克制色彩、稀疏丙烯形状和大量纸张留白。</td>
+    <td>上半小型珐琅纪念物，下半保留真实照片。</td>
   </tr>
   <tr>
-    <td>
-      <img
-        src="assets/examples/crayon-memory-postcard-sunset.webp"
-        alt="原照片与温暖蜡笔记忆组成的旅行明信片"
-      >
-    </td>
-    <td>
-      <img
-        src="assets/examples/rubber-stamp-travel-journal-sunset.webp"
-        alt="原照片与多色手工橡皮章组成的旅行手账"
-      >
-    </td>
+    <th><a href="skills/crayon-memory-postcard/README.md">Crayon Memory Postcard</a></th>
+    <th><a href="skills/rubber-stamp-travel-journal/README.md">Rubber Stamp Travel Journal</a></th>
   </tr>
   <tr>
-    <th>
-      <a href="skills/painted-editorial-reconstruction/README.md">
-        Painted Editorial Reconstruction
-      </a>
-    </th>
-    <th>
-      <a href="skills/photo-doodle-story/README.md">
-        Photo Doodle Story
-      </a>
-    </th>
+    <td><img src="assets/examples/crayon-memory-postcard-sunset.webp" alt="蜡笔旅行记忆"></td>
+    <td><img src="assets/examples/rubber-stamp-travel-journal-sunset.webp" alt="左右分栏的橡皮章旅行手账"></td>
   </tr>
   <tr>
-    <td>
-      <img
-        src="assets/examples/painted-editorial-reconstruction-sunset.webp"
-        alt="原照片与大笔触绘画重构组成的编辑画面"
-      >
-    </td>
-    <td>
-      <img
-        src="assets/examples/photo-doodle-story-sunset.webp"
-        alt="原照片与观察晚霞的黑线小人故事"
-      >
-    </td>
+    <td>把记忆压缩成几个带蜡质颗粒的元素。</td>
+    <td>严格左右分栏，保留真实照片与手工缺墨质感。</td>
   </tr>
   <tr>
-    <th colspan="2">
-      <a href="skills/impasto-miniature-world/README.md">
-        Impasto Miniature World
-      </a>
-    </th>
+    <th><a href="skills/painted-editorial-reconstruction/README.md">Painted Editorial Reconstruction</a></th>
+    <th><a href="skills/photo-doodle-story/README.md">Photo Doodle Story</a></th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/painted-editorial-reconstruction-sunset.webp" alt="大笔触绘画式重构"></td>
+    <td><img src="assets/examples/photo-doodle-story-sunset.webp" alt="照片线索与微型黑线故事"></td>
+  </tr>
+  <tr>
+    <td>安静、透气、带明显大笔触的绘画重述。</td>
+    <td>真实摄影线索进入一个克制的微型涂鸦故事。</td>
+  </tr>
+  <tr>
+    <th colspan="2"><a href="skills/impasto-miniature-world/README.md">Impasto Miniature World</a></th>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img
-        src="assets/examples/impasto-miniature-world-sunset.webp"
-        alt="原照片与雕塑感厚涂微缩世界"
-        width="50%"
-      >
+      <img src="assets/examples/impasto-miniature-world-sunset.webp" alt="雕塑感厚涂微缩世界" width="50%">
     </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">用高饱和厚重油彩，把原图线索转译成梦境式微缩环境。</td>
   </tr>
 </table>
 
-这 7 张作品证明每个 Skill 都可以执行，但目前仍是 Draft。只有在至少三种
-明显不同的图片上稳定工作，并通过人工对比后，才会升级为 Featured。
+点进任意风格名称，都能看到它自己的效果图、单独安装命令、Codex 触发方式和视觉合同。
 
-## 它到底是一个 Skill，还是多个 Skills？
+## 这个包到底是什么？
 
-**Image Skillbook 是产品名、GitHub 仓库名，也是一个 Skill Pack。**
-它不是一个塞满所有提示词的巨型 Skill。
+Image Skillbook 是一个 **多 Skill 仓库**，不是把所有提示词塞进一个巨型 Skill。
 
-| 层级 | 含义 | 是否可安装 |
-| --- | --- | --- |
-| Image Skillbook | 产品、仓库与分发包 | 作为安装来源 |
-| `$image-skillbook` | 负责发现、比较和路由的总控 Skill | 是 |
-| 7 个风格 Skill | 每个只负责一种视觉处理 | 是 |
-| Recipe | 风格背后的设计约束、来源与验收记录 | 否 |
+| 层级 | 数量 | 作用 |
+| --- | ---: | --- |
+| 总控 Skill | 1 | 发现、比较和选择风格 |
+| 视觉 Skill | 7 | 每个独立安装，只负责一种处理方法 |
+| 公共 Recipe | 7 | 记录视觉合同、适配规则与验收标准 |
 
-因此这个仓库一共有 **8 个可安装 Skill：1 个总控 + 7 个风格**。当前每个
-Recipe 都一对一对应一个风格 Skill。
+本地最初确实有 **8 个原始 Prompt 文件**，但只有 **7 个不同视觉概念**。
+其中两个文件是 Rubber Stamp Travel Journal 的横版与竖版变体，因此应该合并
+成同一个 Skill，而不是人为制造第 8 个重复风格。
 
-标准目录是 `skills/<name>/SKILL.md`。根 README 是 7 个风格的总展厅；每个
-风格目录也有自己的 README，展示原图与效果、单独安装命令、触发方式和视觉
-合同。示例图片会随单个 Skill 一起安装，所以离开总仓库也不会失效。
-`SKILL.md` 只负责给 Agent 执行，README 负责给人浏览和分享。
-
-## 为什么不做成一个万能 Skill？
-
-社交媒体上的好提示词往往只在一张示例图、一个模型上有效。把十几个风格
-塞进同一份提示词，还会让视觉约束互相污染。
-
-Image Skillbook 的做法是：
-
-- 一个 Skill 只负责一种可辨认的视觉结果；
-- 用户可以只安装和调用喜欢的风格；
-- 总控 Skill 负责推荐，选定后只执行一个风格；
-- Recipe 保留创意核心、适配规则、来源状态和验收问题；
-- 新发现先进入本地 Prompt Inbox，清理版权与重复项后再公开。
-
-## Codex + GPT Image 优先
-
-- 安装命令明确使用 `--agent codex`。
-- 8 个 Skill 都包含 Codex 可读的 `agents/openai.yaml` 展示与默认触发信息。
-- Codex 可以在一次工作流中查看原图、调用内置图片生成或编辑、检查结果并
-  保存文件。
-- 目录仍遵循通用 Agent Skills 格式；其他兼容客户端可以执行相同约束，
-  没有图片工具时也可以使用 Prompt-only 模式。
+所以最终可安装的是 **8 个 Skill：1 个总控 + 7 个视觉 Skill**。Recipe 是给
+人和 Agent 审查的公开设计合同，不是第九种安装对象。
 
 ## 8 个可安装 Skill
 
 | Skill | 最适合 | 默认模式 |
 | --- | --- | --- |
-| [`$image-skillbook`](skills/image-skillbook/SKILL.md) | 发现、比较与路由 | Router |
+| [`$image-skillbook`](skills/image-skillbook/SKILL.md) | 风格发现与路由 | Router |
 | [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) | 稀疏丙烯纸张记忆 | Direct |
-| [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) | 地点珐琅纪念物 | Adaptive |
-| [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) | 蜡笔旅行记忆 | Production |
-| [`$rubber-stamp-travel-journal`][stamp-skill] | 多色橡皮章手账 | Production |
-| [`$painted-editorial-reconstruction`][reconstruction-skill] | 大幅绘画式重构 | Production |
-| [`$photo-doodle-story`](skills/photo-doodle-story/README.md) | 真实主体与黑线小人 | Production |
-| [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) | 厚涂微缩世界 | Production |
+| [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) | 原照片与珐琅纪念物海报 | Production |
+| [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) | 温暖蜡笔记忆 | Production |
+| [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) | 左右分栏橡皮章手账 | Production |
+| [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md) | 大笔触绘画重述 | Production |
+| [`$photo-doodle-story`](skills/photo-doodle-story/README.md) | 真实摄影线索与黑线小人 | Production |
+| [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) | 雕塑感厚涂微缩世界 | Production |
 
-[stamp-skill]: skills/rubber-stamp-travel-journal/README.md
-[reconstruction-skill]: skills/painted-editorial-reconstruction/README.md
+7 种风格目前都是 Draft。示例只证明它可以执行；至少在三类明显不同的图片
+上稳定工作并通过人工比较后，才会升级为 Featured。
 
-## 安装
+## 单独安装一种风格
 
-安装整个 Skill Pack：
-
-```bash
-npx skills add AlbertAZ1992/image-skillbook \
-  --skill '*' --global --agent codex --yes
-```
-
-只安装一种风格：
+已经知道想用什么时，不需要安装总控：
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
   --skill photo-doodle-story --global --agent codex --yes
 ```
 
-在仓库本地开发时，一键安装全部 8 个 Skill：
+仓库贡献者可以从本地一次安装全部 8 个 Skill：
 
 ```bash
 npm run install:local
 # 或：bash scripts/install-local.sh
 ```
 
-安装后重新开启一个 Codex 会话，让 Skill 列表刷新。
+安装后重新开启 Codex 会话，让 Skill 列表刷新。
 
 ## 怎么触发？
 
-Skill 名称是自然语言中的显式触发器，不是终端命令。上传图片后直接说：
+Skill 名称是自然语言触发器，不是终端命令。上传图片后提到准确的 `$skill-name`：
 
 ```text
-用 $image-skillbook 为这张照片推荐三个风格，解释差异，先不要生成。
+用 $rubber-stamp-travel-journal 处理这张地点照片。
+照片放左边，做旧纸张与橡皮章放右边。
 ```
 
 ```text
-用 $photo-doodle-story 处理这张照片。保留原始照片，生成一个独立结果。
+用 $impasto-miniature-world 分别处理每一张上传的照片，不要合并输入。
 ```
 
 ```text
-用 $editorial-painted-memory 的 Prompt-only 模式，只输出最终提示词。
+用 $editorial-painted-memory 的 Prompt-only 模式，只返回最终生成提示词。
 ```
 
-多张图片默认分别处理，不会擅自拼成一张。
+## 执行流程
 
-## 四种执行方式
+```text
+图片 + 目标
+    ↓
+选择一个视觉 Skill
+    ↓
+根据这张图片编译视觉合同
+    ↓
+生成需要创作的区域
+    ↓
+需要时做确定性尺寸拼版
+    ↓
+验收保真、风格、文字和尺寸
+```
 
-- **Direct**：尽量原样保留已经验证过的创意核心。
-- **Adaptive**：根据主体和构图调整简化方式与视觉结构。
-- **Production**：图片模型负责美感，确定性工具负责尺寸、比例与原图保真。
-- **Prompt-only**：不生成图片，只返回可以交给其他图片模型的最终提示词。
+| 模式 | 什么时候用 | 行为 |
+| --- | --- | --- |
+| Direct | 已验证的方法应尽量保持不变 | 保留创意核心 |
+| Adaptive | 主体或构图需要适配 | 调整选择和简化策略 |
+| Production | 尺寸与原图保真可测量 | 先生成风格区域，再准确拼版 |
+| Prompt-only | 交给另一个图片工具生成 | 返回可直接使用的最终提示词 |
 
-## 收录新风格
+## 添加新风格
 
-公开帖子不等于开放许可。第三方原始提示词只有在许可明确时才能原文收录；
-许可不清楚时，应保留来源记录，提炼通用视觉方法，并重新编写、独立测试
-我们的执行约束。
+公开社交帖子不等于开放许可。新发现先保存在被 Git 忽略的 `prompt-inbox/`，
+公共仓库只发布经过重写、测试和记录的视觉合同，不做未经审查的 Prompt Dump。
 
-把新 Prompt 放到 `prompt-inbox/INBOX.md`，或在 `prompt-inbox/` 下每个
-Prompt 单独建一个 Markdown 文件。这个目录默认被 Git 忽略，不会发布到
-公开仓库。
+1. 在本地保存来源 URL、作者、模型和复用条款。
+2. 先区分版式变体、重复文件和真正不同的视觉概念。
+3. 提炼最小但有辨识度的视觉决策，独立编写 Recipe。
+4. 创建一个职责单一的视觉 Skill，并补齐效果与安装方法。
+5. 测试不同题材后再从 Draft 升级。
 
-详见 [收录规则](references/contributing-recipes.md) 和
-[配方格式](references/recipe-format.md)。
+详见 [收录流程](references/contributing-recipes.md) 和
+[Recipe 格式](references/recipe-format.md)。
+
+## 仓库结构
+
+```text
+image-skillbook/
+├── skills/
+│   ├── image-skillbook/       # 总控
+│   └── <style-name>/          # 一个可独立安装的视觉 Skill
+│       ├── README.md          # 效果与用法
+│       ├── SKILL.md           # Agent 执行合同
+│       ├── agents/openai.yaml # Codex 展示与默认触发
+│       └── assets/            # 自包含示例
+├── references/recipes/        # 公共视觉合同
+├── assets/examples/           # 根画廊素材
+├── prompt-inbox/              # 本地原始收集箱；Git 忽略
+├── catalog.json
+├── evals/evals.json
+└── scripts/
+    ├── install-local.sh
+    └── verify.mjs
+```
 
 ## 本地验证
 
@@ -270,9 +229,7 @@ npm run verify
 npx --yes skills@latest add . --list
 ```
 
-第一条检查 Skill、Recipe、示例和来源字段，第二条确认标准 Skills 客户端
-能够发现全部 8 个 Skill。
-
 ## License
 
-仓库原创内容使用 MIT。任何改编配方在公开前都必须记录兼容的来源与许可。
+仓库原创内容使用 MIT。任何改编内容在发布前都必须记录兼容的来源与许可。
+示例来源见 [`assets/examples/README.md`](assets/examples/README.md)。

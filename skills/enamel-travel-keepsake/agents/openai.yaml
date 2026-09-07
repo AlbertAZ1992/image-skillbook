@@ -1,9 +1,9 @@
 interface:
   display_name: "Enamel Travel Keepsake"
-  short_description: "Turn a place photo into an enamel keepsake"
+  short_description: "Make a photo-and-enamel 3:4 keepsake poster"
   default_prompt: >-
-    Use $enamel-travel-keepsake to turn this place photo into a refined
-    collectible enamel object.
+    Use $enamel-travel-keepsake to pair this photo with a small premium enamel
+    keepsake in an exact 3:4 poster.
 
 policy:
   allow_implicit_invocation: true

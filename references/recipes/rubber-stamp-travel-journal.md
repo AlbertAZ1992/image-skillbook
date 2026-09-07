@@ -25,7 +25,8 @@ feels collected and observed rather than branded.
 ## Adaptation rules
 
 - Choose portrait 3:4 or landscape 4:3 from the requested delivery and source.
-- Use equal adjacent regions: top/bottom for portrait or left/right for landscape.
+- Use equal left/right regions in both orientations: source photograph on the left,
+  aged paper and stamp on the right. Never stack the regions vertically.
 - Preserve source subjects, lighting, spatial relationships, and realistic texture in
   the photo region; crop naturally and never stretch.
 - Reduce architecture to its decisive roof, arch, tower, facade, or silhouette.
@@ -40,7 +41,7 @@ feels collected and observed rather than branded.
 
 Generate the stamp on its paper field separately when exact source preservation or
 equal regions matter. Assemble the final spread deterministically and verify canvas,
-split, orientation, and unchanged source region.
+50:50 vertical split, orientation, and unchanged left source region.
 
 ## Avoid
 
@@ -56,6 +57,7 @@ split, orientation, and unchanged source region.
 - Can the place be recognized from a few scene-specific contours?
 - Does the print look pressed into paper rather than filtered on screen?
 - Is empty paper an active part of the composition?
+- Are the two panels side by side in both portrait and landscape delivery?
 - Does the chosen orientation preserve the source's strongest relationship?
 
 ## Provenance note

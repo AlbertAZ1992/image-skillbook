@@ -2,7 +2,7 @@
   "name": "image-skillbook",
   "version": "0.1.0",
   "private": true,
-  "description": "Curated AI image Skills and tested GPT Image recipes for creative photo transformations.",
+  "description": "Open-source Codex image Skills for GPT Image with seven tested photo-to-art styles.",
   "keywords": [
     "codex",
     "gpt-image",

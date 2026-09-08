@@ -1,15 +1,16 @@
 <div align="center">
 
-# Image Skillbook — Curated AI Image Skills & GPT Image Recipes
+# Image Skillbook — AI Image Skills for Codex & GPT Image
 
 Turn real photos into doodle stories, crayon art, editorial paintings, and tactile keepsakes.
 
-Image Skillbook is a curated collection of installable AI image Skills and tested GPT Image
-prompt recipes. Use Codex to transform a photograph into a tiny doodle story, crayon postcard,
-enamel keepsake, rubber-stamp journal, editorial painting, or impasto miniature world.
+Image Skillbook is an open-source collection of seven independently installable Codex image
+Skills and one optional style router. Use them with GPT Image to transform a photograph into a
+tiny doodle story, crayon postcard, enamel keepsake, rubber-stamp journal, editorial painting,
+or impasto miniature world.
 
-This is not a raw prompt dump. Every independently installable Skill includes source-aware
-adaptation rules, real before-and-after examples, one-command installation, and review checks.
+This is not a prompt archive. Every visual Skill packages source-aware adaptation rules, real
+before-and-after examples, one-command installation, and review checks.
 
 <a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
   <img
@@ -22,6 +23,13 @@ adaptation rules, real before-and-after examples, one-command installation, and 
 [简体中文](README.zh-CN.md)
 
 </div>
+
+## What Is an AI Image Skill?
+
+An AI image Skill is an installable instruction package that tells a compatible agent how to
+adapt, run, and evaluate one repeatable visual treatment. Image Skillbook gives every style its
+own source-preservation rules, failure boundaries, real evaluation gallery, and exact install
+and invocation commands.
 
 ## Install a Codex Image Skill
 
@@ -267,7 +275,7 @@ npx skills add AlbertAZ1992/image-skillbook \
 
 ## Need Help Choosing?
 
-The optional [`$image-skillbook`](skills/image-skillbook/SKILL.md) router compares the
+The optional [`$image-skillbook`](skills/image-skillbook/README.md) router compares the
 available treatments and gives you the install command for its recommendation.
 
 ```bash

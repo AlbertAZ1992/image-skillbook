@@ -1,14 +1,14 @@
 <div align="center">
 
-# Image Skillbook — AI 图片 Skills 与 GPT Image 创作配方
+# Image Skillbook — 面向 Codex 与 GPT Image 的 AI 图片 Skills
 
 把真实照片变成微型涂鸦故事、蜡笔画、编辑绘画与有触感的旅行纪念物。
 
-Image Skillbook 是一套精选、可独立安装的 AI 图片 Skills 和经过测试的 GPT Image
-提示词配方。你可以在 Codex 中把一张照片转成微型涂鸦故事、蜡笔明信片、珐琅纪念物、
-橡皮章手账、编辑绘画或厚涂微缩世界。
+Image Skillbook 是一套开源图片处理工具集，包含 7 个可以独立安装的 Codex 图片 Skills
+和 1 个可选的风格选型 Skill。你可以配合 GPT Image，把一张照片转成微型涂鸦故事、
+蜡笔明信片、珐琅纪念物、橡皮章手账、编辑绘画或厚涂微缩世界。
 
-这里不是未经整理的 Prompt 合集。每个 Skill 都包含基于原图的适配规则、真实前后对比、
+这里不是 Prompt 档案库。每个视觉 Skill 都包含基于原图的适配规则、真实前后对比、
 一键安装命令和验收标准。
 
 <a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
@@ -22,6 +22,12 @@ Image Skillbook 是一套精选、可独立安装的 AI 图片 Skills 和经过�
 [English](README.md)
 
 </div>
+
+## 什么是 AI 图片 Skill？
+
+AI 图片 Skill 是一种可以安装给兼容 Agent 的执行说明，它会告诉 Agent 如何针对输入图片
+调整、运行并检查一种可重复的视觉处理效果。Image Skillbook 为每种风格分别提供原图保护
+规则、失败边界、真实评测图，以及准确的安装和触发命令。
 
 ## 安装一个 Codex 图像 Skill
 
@@ -263,7 +269,7 @@ npx skills add AlbertAZ1992/image-skillbook \
 
 ## 不知道选哪个？
 
-可选的 [`$image-skillbook`](skills/image-skillbook/SKILL.md) 总控会比较现有风格，
+可选的 [`$image-skillbook`](skills/image-skillbook/README.md) 总控会比较现有风格，
 并给出推荐结果和准确的安装命令。
 
 ```bash

@@ -1,13 +1,11 @@
 # Example Assets
 
-The source photograph was supplied by the project owner for this repository demo.
-Its metadata was removed and its longest edge was reduced before publication.
+The source photographs were supplied by the project owner for repository demos.
+Their metadata was removed before publication. The beach source was reduced to a
+1600-pixel longest edge; the other added sources were already within that limit.
 
-All generated assets were produced through the repository's installed Skills. The
-router or named style Skill selected the Recipe and mode, compiled the
-image-specific request, invoked built-in image generation, and applied the Recipe's
-review checks. The raw Prompt Inbox entries and the external
-`photo-abstract-editorial` Skill were not used for generation.
+All generated assets were produced through the repository's installed Skills with built-in
+image generation and the corresponding Recipe review checks.
 
 - `source-sunset.webp`: source photograph.
 - `editorial-painted-memory-sunset.webp`: complete Editorial Painted Memory
@@ -24,6 +22,9 @@ review checks. The raw Prompt Inbox entries and the external
   Production mode.
 - `impasto-miniature-world-sunset.webp`: complete Impasto Miniature World example
   in Production mode.
+- `source-coffee-terrace.webp`: busy urban terrace source photograph.
+- `source-beach-sunset.webp`: wide beach sunset source photograph.
+- `source-tree-street.webp`: dense historic street source photograph.
 - `source-crimson-sunset.webp`: portrait source photograph.
 - `editorial-painted-memory-crimson-study.webp`: generated Editorial Painted
   Memory panel study.
@@ -34,13 +35,17 @@ review checks. The raw Prompt Inbox entries and the external
 - `editorial-painted-memory-cloud-study.webp`: generated Editorial Painted
   Memory panel study.
 
-All seven main examples use an exact 1536×2048 canvas. Production examples keep a
+The main gallery examples use an exact 1536×2048 canvas. Production examples keep a
 normalized source region intact and combine it with a generated style panel. Enamel,
 Rubber Stamp, and Impasto were regenerated from their corrected standalone Skills on
-2026-09-07; the remaining first-pass examples were created on 2026-09-06. All remain
-Draft evaluation evidence and have not yet earned Featured status.
+2026-09-07; the remaining first-pass examples were created on 2026-09-06.
 
 The three additional Editorial outputs are lower-panel studies. They verify that
 the recipe can retain a dark edge, a two-building frame, and a cloud-only diagonal
 gesture before full poster assembly. All four source photographs came from the same
 sunset series, so this is not yet evidence of subject diversity.
+
+The coffee, beach, and tree-street tests were generated on 2026-09-08. Their accepted results
+are stored inside every matching Skill package rather than duplicated in this shared directory.
+Together with the city-sunset test, they form the four-source Candidate evaluation set shown in
+the root and Skill README galleries.

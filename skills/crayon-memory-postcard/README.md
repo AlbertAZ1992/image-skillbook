@@ -5,12 +5,12 @@
 Pair a faithful photograph with a warm, quirky wax-crayon recollection that feels
 like a personally observed travel memory.
 
-## Example
+## Evaluation gallery
 
 <table>
   <tr>
-    <th width="42%">Source</th>
-    <th width="58%">Skill output</th>
+    <th width="42%">Source photograph</th>
+    <th width="58%">Crayon memory</th>
   </tr>
   <tr>
     <td>
@@ -26,9 +26,44 @@ like a personally observed travel memory.
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <img src="assets/source-coffee-terrace.webp" alt="People across several coffee terraces">
+    </td>
+    <td>
+      <img
+        src="assets/crayon-memory-postcard-coffee.webp"
+        alt="Layered coffee terraces redrawn with visible wax grain"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-beach-sunset.webp" alt="Three people watching a beach sunset">
+    </td>
+    <td>
+      <img
+        src="assets/crayon-memory-postcard-beach.webp"
+        alt="Three seated figures and an umbrella redrawn with visible wax grain"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-tree-street.webp" alt="Arching tree above a tiled-roof street">
+    </td>
+    <td>
+      <img
+        src="assets/crayon-memory-postcard-tree-street.webp"
+        alt="Arching tree and descending street simplified with wax crayon"
+      >
+    </td>
+  </tr>
 </table>
 
-This example uses Production mode for an exact 3:4 canvas and 50:50 split.
+The four-source evaluation covers skyline, dense architecture and people, strong backlight,
+and a vertical foliage-and-rooftop scene. Every result uses Production mode for an exact 3:4
+canvas and 50:50 split.
 
 ## Install
 
@@ -54,4 +89,5 @@ Keep the photo intact and create a warm wax-grain memory below it.
 [Read the agent instructions](SKILL.md) ·
 [Inspect the Recipe](../../references/recipes/crayon-memory-postcard.md)
 
-Status: **Draft** — working example, awaiting broader subject testing.
+Status: **Candidate** — reviewed across four varied photographs; object, pet, and close-portrait
+inputs remain untested.

@@ -16,14 +16,10 @@ incomplete, duplicated, unattributed, or copied from a social post without becom
 public repository content. Add the source, author, model, example, or reuse terms when
 known.
 
-When ready, ask:
-
-```text
-Use $image-skillbook to inventory every prompt in prompt-inbox, group only genuine
-duplicates, and turn the first unreviewed concept into a Draft Skill and Recipe.
-Preserve the raw source and report missing provenance or test evidence.
-```
-
 Public recipe wording belongs in `references/recipes/`; each independently installable
 style belongs in `skills/`. Unknown third-party rights require an independently written
 abstraction rather than copying the raw prompt.
+
+When a treatment is ready to become public, follow the repository's
+[`CONTRIBUTING.md`](../CONTRIBUTING.md) workflow. Prompt intake is a maintainer process rather
+than a responsibility of the public style-selection router.

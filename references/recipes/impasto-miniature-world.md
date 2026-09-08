@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Production
 - **Input:** one photograph
 - **Output:** one 3:4 editorial diptych with a source photograph and an impasto
@@ -28,9 +28,9 @@ enough white space to make the relief feel precious.
 - Preserve identity, pose, clothing, composition, and natural light in the upper half.
 - Reduce the lower subjects to tiny figurative forms without losing decisive colors
   or gestures.
-- Translate a visible source cue into a poetic environment such as shallow water, a
-  coastal road, planted terrain, or luminous cloud-land. The new environment may be
-  dreamlike, but it must remain compositionally connected to the source.
+- Intensify a visible source cue into a poetic environment while preserving the
+  original place type and spatial relationship. A cloud may become luminous terrain,
+  but an inland city must not become a coast or road without source evidence.
 - Use thick directional paint on clouds, ground, foliage, and highlights, with
   selective translucent glaze for light and water.
 - Keep the paint island within roughly 60–75% of the lower region.
@@ -50,7 +50,9 @@ normalized source for exact 3:4 geometry and a verified equal split.
 - hard rectangular paint borders or perfectly clipped edges;
 - muddy sepia, arbitrary desaturation, muted Morandi color, neon, or cheap candy color;
 - unrelated stock scenery with no visible bridge back to the source;
-- distorted people or generic figurines; and
+- invented geography that replaces the original place type;
+- distorted people or generic figurines;
+- partial source signage, invented letters, or glyph-like marks inside the paint island; and
 - typography overlapping the paint island or competing for attention.
 
 ## Review questions

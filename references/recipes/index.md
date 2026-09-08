@@ -1,32 +1,20 @@
-# Recipe Index
+# Recipe Reference Index
 
-Read only the recipe selected for the current request.
+Recipes are maintainer-facing contracts behind the independently installable Skills. Users
+should start from the [main README](../../README.md) and open a Skill page to install or try a
+treatment. `catalog.json` is the source of truth for machine-readable status and metadata.
 
-| Recipe | Outcome | Default mode | Status |
-| --- | --- | --- | --- |
-| [Painted Memory](editorial-painted-memory.md) | Photo + paper illustration | Direct | Draft |
-| [Enamel Keepsake](enamel-travel-keepsake.md) | Photo + enamel souvenir | Adaptive | Draft |
-| [Crayon Memory](crayon-memory-postcard.md) | Photo + crayon recollection | Production | Draft |
-| [Stamp Journal](rubber-stamp-travel-journal.md) | Photo + carved stamp | Production | Draft |
-| [Painted Retelling](painted-editorial-reconstruction.md) | Photo + painting | Production | Draft |
-| [Doodle Story](photo-doodle-story.md) | Photo + line figures | Production | Draft |
-| [Impasto World](impasto-miniature-world.md) | Photo + paint relief | Production | Draft |
+- [Editorial Painted Memory](editorial-painted-memory.md) — sparse acrylic recollection on
+  paper.
+- [Enamel Travel Keepsake](enamel-travel-keepsake.md) — source-derived collectible enamel
+  object.
+- [Crayon Memory Postcard](crayon-memory-postcard.md) — warm wax-grain travel recollection.
+- [Rubber Stamp Travel Journal](rubber-stamp-travel-journal.md) — carved-ink field-journal
+  treatment.
+- [Painted Editorial Reconstruction](painted-editorial-reconstruction.md) — broad painterly
+  reconstruction.
+- [Photo Doodle Story](photo-doodle-story.md) — real photographic cues with tiny line figures.
+- [Impasto Miniature World](impasto-miniature-world.md) — sculptural oil-paint miniature world.
 
-## Selection notes
-
-- Choose **Editorial Painted Memory** when the contrast between photography and a
-  handmade interpretation is the central idea.
-- Choose **Enamel Travel Keepsake** when the user wants a physical souvenir feeling,
-  a fridge-magnet concept, or a compact collectible object.
-- Choose **Crayon Memory Postcard** for warm, naive travel-journal drawing with real
-  wax grain.
-- Choose **Rubber Stamp Travel Journal** for location-specific carved contours on
-  aged paper.
-- Choose **Painted Editorial Reconstruction** for broader compositional repainting
-  rather than a tiny paper vignette.
-- Choose **Photo Doodle Story** when real photographic subjects should interact with
-  a few black-line characters.
-- Choose **Impasto Miniature World** for sculptural oil-paint relief and a diorama-like
-  lower scene.
-- If the user supplies a complete proven prompt, use it as an ad hoc Direct recipe
-  instead of forcing it into one of these entries.
+To add another treatment, follow the [contribution workflow](../../CONTRIBUTING.md). Each public
+Recipe must have a matching Skill package and catalog entry.

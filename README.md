@@ -1,46 +1,47 @@
 <div align="center">
 
-# Image Skillbook
+# Image Skillbook — Codex AI Image Skills
 
-### Seven repeatable image treatments, packaged as installable Skills.
+Open-source Agent Skills for repeatable GPT Image generation and AI photo editing.
 
-Built first for Codex + GPT Image. One router helps you choose; every visual style
-can also be installed and invoked on its own.
+Image Skillbook packages seven tested visual treatments plus one discovery router. Built first
+for Codex and GPT Image, every Skill includes source-aware adaptation rules, real
+before-and-after examples, one-command installation, and review checks.
 
-[![Installable Skills](https://img.shields.io/badge/installable_skills-8-6B5B95)](#the-pack)
-[![Visual Styles](https://img.shields.io/badge/visual_styles-7-EF8354)](#all-seven-styles)
+<a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
+  <img
+    src="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml/badge.svg"
+    alt="Repository verification status"
+  >
+</a>
 [![License](https://img.shields.io/badge/license-MIT-2A9D8F)](LICENSE)
 
 [简体中文](README.zh-CN.md)
 
 </div>
 
-## Quick start
+## Install a Codex Image Skill
 
-Install the complete pack:
+Install one treatment:
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
-  --skill '*' --global --agent codex --yes
+  --skill photo-doodle-story --global --agent codex --yes
 ```
 
-Attach a photograph in a new Codex session, then either name a style:
+Start a new Codex session, attach a photograph, and mention the Skill by name:
 
 ```text
-Use $editorial-painted-memory on this photograph.
+Use $photo-doodle-story on this photograph.
 ```
 
-Or ask the router to compare styles before generating:
+Open a style below before installing it to see the source image, generated result, intended
+use, and invocation examples.
 
-```text
-Use $image-skillbook to recommend up to three styles for this photo.
-Explain the trade-offs and do not generate yet.
-```
+## See the Results
 
-## All seven styles
-
-The gallery uses one source photograph so the treatment—not the subject—changes.
-These are generated and reviewed examples, not prompt screenshots or mockups.
+This comparison uses one source photograph so you can judge the treatments directly. Every
+result shown here was generated and reviewed.
 
 <p align="center">
   <img
@@ -52,198 +53,260 @@ These are generated and reviewed examples, not prompt screenshots or mockups.
 
 <table>
   <tr>
-    <th width="50%"><a href="skills/editorial-painted-memory/README.md">Editorial Painted Memory</a></th>
-    <th width="50%"><a href="skills/enamel-travel-keepsake/README.md">Enamel Travel Keepsake</a></th>
+    <th width="50%">
+      <a href="skills/editorial-painted-memory/README.md">Editorial Painted Memory</a>
+    </th>
+    <th width="50%">
+      <a href="skills/enamel-travel-keepsake/README.md">Enamel Travel Keepsake</a>
+    </th>
   </tr>
   <tr>
-    <td><img src="assets/examples/editorial-painted-memory-sunset.webp" alt="Photo above a sparse painted memory"></td>
-    <td><img src="assets/examples/enamel-travel-keepsake-sunset.webp" alt="Small enamel keepsake above the source photo"></td>
+    <td>
+      <img
+        src="assets/examples/editorial-painted-memory-sunset.webp"
+        alt="City sunset reinterpreted as a sparse painted memory"
+      >
+    </td>
+    <td>
+      <img
+        src="assets/examples/enamel-travel-keepsake-sunset.webp"
+        alt="City sunset paired with a small enamel keepsake"
+      >
+    </td>
   </tr>
   <tr>
     <td>Quiet acrylic shapes, restrained color, and generous paper.</td>
-    <td>A small source-derived enamel emblem paired with the authentic photo.</td>
+    <td>A source-derived enamel emblem paired with the authentic photo.</td>
   </tr>
   <tr>
-    <th><a href="skills/crayon-memory-postcard/README.md">Crayon Memory Postcard</a></th>
-    <th><a href="skills/rubber-stamp-travel-journal/README.md">Rubber Stamp Travel Journal</a></th>
+    <th>
+      <a href="skills/crayon-memory-postcard/README.md">Crayon Memory Postcard</a>
+    </th>
+    <th>
+      <a href="skills/rubber-stamp-travel-journal/README.md">
+        Rubber Stamp Travel Journal
+      </a>
+    </th>
   </tr>
   <tr>
-    <td><img src="assets/examples/crayon-memory-postcard-sunset.webp" alt="Photo above a warm wax-crayon memory"></td>
-    <td><img src="assets/examples/rubber-stamp-travel-journal-sunset.webp" alt="Photo beside an aged-paper carved stamp"></td>
+    <td>
+      <img
+        src="assets/examples/crayon-memory-postcard-sunset.webp"
+        alt="City sunset simplified into a warm wax crayon memory"
+      >
+    </td>
+    <td>
+      <img
+        src="assets/examples/rubber-stamp-travel-journal-sunset.webp"
+        alt="City sunset beside an aged paper carved stamp"
+      >
+    </td>
   </tr>
   <tr>
     <td>A soft wax-grain recollection reduced to a few memorable elements.</td>
-    <td>A strict side-by-side field-journal spread with tactile broken ink.</td>
+    <td>A field-journal spread with tactile broken ink.</td>
   </tr>
   <tr>
-    <th><a href="skills/painted-editorial-reconstruction/README.md">Painted Editorial Reconstruction</a></th>
-    <th><a href="skills/photo-doodle-story/README.md">Photo Doodle Story</a></th>
+    <th>
+      <a href="skills/painted-editorial-reconstruction/README.md">
+        Painted Editorial Reconstruction
+      </a>
+    </th>
+    <th>
+      <a href="skills/photo-doodle-story/README.md">Photo Doodle Story</a>
+    </th>
   </tr>
   <tr>
-    <td><img src="assets/examples/painted-editorial-reconstruction-sunset.webp" alt="Photo above a broad painterly reconstruction"></td>
-    <td><img src="assets/examples/photo-doodle-story-sunset.webp" alt="Photo above a miniature doodle story"></td>
+    <td>
+      <img
+        src="assets/examples/painted-editorial-reconstruction-sunset.webp"
+        alt="City sunset reconstructed with broad painterly brushwork"
+      >
+    </td>
+    <td>
+      <img
+        src="assets/examples/photo-doodle-story-sunset.webp"
+        alt="City sunset turned into a miniature line-drawn story"
+      >
+    </td>
   </tr>
   <tr>
     <td>A calm, airy retelling with broad visible brushwork.</td>
     <td>Source-locked photographic cues become a tiny line-drawn narrative.</td>
   </tr>
   <tr>
-    <th colspan="2"><a href="skills/impasto-miniature-world/README.md">Impasto Miniature World</a></th>
+    <th colspan="2">
+      <a href="skills/impasto-miniature-world/README.md">Impasto Miniature World</a>
+    </th>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/examples/impasto-miniature-world-sunset.webp" alt="Photo above a sculptural impasto miniature world" width="50%">
+      <img
+        src="assets/examples/impasto-miniature-world-sunset.webp"
+        alt="City sunset sculpted into an impasto miniature world"
+        width="50%"
+      >
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">A vivid, dreamlike environment sculpted from thick directional oil paint.</td>
+    <td colspan="2" align="center">
+      A vivid, dreamlike environment sculpted from thick directional oil paint.
+    </td>
   </tr>
 </table>
 
-Open any style name to see its self-contained example, one-Skill install command,
-Codex trigger, and visual contract.
+## Full Evaluation Matrix
 
-## The pack
+Every current visual Skill was run against the same four photographs: a skyline, a dense social
+space with signage, a strongly backlit beach, and a vertical tree-lined street. The accepted
+results below passed human review and moved the Skills to Candidate. Open any Skill page to see
+each source beside its result at a larger size.
 
-Image Skillbook is a **multi-Skill repository**, not one giant prompt. It contains
-eight installable Skills:
+### Evaluation inputs
 
-| Layer | Count | Purpose |
-| --- | ---: | --- |
-| Router Skill | 1 | Discover, compare, and select a visual treatment |
-| Style Skills | 7 | Execute one focused, independently installable treatment each |
-| Public Recipes | 7 | Document the design contract, adaptation rules, and review checks |
+<table>
+  <tr>
+    <th width="25%">City sunset</th>
+    <th width="25%">Coffee terrace</th>
+    <th width="25%">Beach sunset</th>
+    <th width="25%">Tree street</th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/source-sunset.webp" alt="City skyline at sunset"></td>
+    <td><img src="assets/examples/source-coffee-terrace.webp" alt="Busy coffee terrace"></td>
+    <td><img src="assets/examples/source-beach-sunset.webp" alt="People at a beach sunset"></td>
+    <td><img src="assets/examples/source-tree-street.webp" alt="Tree-lined historic street"></td>
+  </tr>
+</table>
 
-The initial local import contains **eight raw Prompt files but seven distinct visual
-concepts**. Two files are portrait and landscape variants of Rubber Stamp Travel
-Journal, so they belong to one Skill rather than creating a duplicate eighth style.
+### Results
 
-A Recipe is public documentation, not an install target. The router and seven style
-Skills are the eight installable units.
+<table>
+  <tr>
+    <th>Treatment</th>
+    <th>City</th>
+    <th>Coffee</th>
+    <th>Beach</th>
+    <th>Street</th>
+  </tr>
+  <tr>
+    <th><a href="skills/editorial-painted-memory/README.md">Editorial Painted Memory</a></th>
+    <td><img src="skills/editorial-painted-memory/assets/editorial-painted-memory-sunset.webp" alt="Editorial painted city sunset"></td>
+    <td><img src="skills/editorial-painted-memory/assets/editorial-painted-memory-coffee.webp" alt="Editorial painted coffee terrace"></td>
+    <td><img src="skills/editorial-painted-memory/assets/editorial-painted-memory-beach.webp" alt="Editorial painted beach sunset"></td>
+    <td><img src="skills/editorial-painted-memory/assets/editorial-painted-memory-tree-street.webp" alt="Editorial painted tree street"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/enamel-travel-keepsake/README.md">Enamel Travel Keepsake</a></th>
+    <td><img src="skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-sunset.webp" alt="City sunset enamel keepsake"></td>
+    <td><img src="skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-coffee.webp" alt="Coffee terrace enamel keepsake"></td>
+    <td><img src="skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-beach.webp" alt="Beach sunset enamel keepsake"></td>
+    <td><img src="skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-tree-street.webp" alt="Tree street enamel keepsake"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/crayon-memory-postcard/README.md">Crayon Memory Postcard</a></th>
+    <td><img src="skills/crayon-memory-postcard/assets/crayon-memory-postcard-sunset.webp" alt="City sunset crayon memory"></td>
+    <td><img src="skills/crayon-memory-postcard/assets/crayon-memory-postcard-coffee.webp" alt="Coffee terrace crayon memory"></td>
+    <td><img src="skills/crayon-memory-postcard/assets/crayon-memory-postcard-beach.webp" alt="Beach sunset crayon memory"></td>
+    <td><img src="skills/crayon-memory-postcard/assets/crayon-memory-postcard-tree-street.webp" alt="Tree street crayon memory"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/rubber-stamp-travel-journal/README.md">Rubber Stamp Travel Journal</a></th>
+    <td><img src="skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-sunset.webp" alt="City sunset rubber stamp"></td>
+    <td><img src="skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-coffee.webp" alt="Coffee terrace rubber stamp"></td>
+    <td><img src="skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-beach.webp" alt="Beach sunset rubber stamp"></td>
+    <td><img src="skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-tree-street.webp" alt="Tree street rubber stamp"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/painted-editorial-reconstruction/README.md">Painted Editorial Reconstruction</a></th>
+    <td><img src="skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-sunset.webp" alt="Painted city sunset reconstruction"></td>
+    <td><img src="skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-coffee.webp" alt="Painted coffee terrace reconstruction"></td>
+    <td><img src="skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-beach.webp" alt="Painted beach sunset reconstruction"></td>
+    <td><img src="skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-tree-street.webp" alt="Painted tree street reconstruction"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/photo-doodle-story/README.md">Photo Doodle Story</a></th>
+    <td><img src="skills/photo-doodle-story/assets/photo-doodle-story-sunset.webp" alt="City sunset photo doodle story"></td>
+    <td><img src="skills/photo-doodle-story/assets/photo-doodle-story-coffee.webp" alt="Coffee terrace photo doodle story"></td>
+    <td><img src="skills/photo-doodle-story/assets/photo-doodle-story-beach.webp" alt="Beach sunset photo doodle story"></td>
+    <td><img src="skills/photo-doodle-story/assets/photo-doodle-story-tree-street.webp" alt="Tree street photo doodle story"></td>
+  </tr>
+  <tr>
+    <th><a href="skills/impasto-miniature-world/README.md">Impasto Miniature World</a></th>
+    <td><img src="skills/impasto-miniature-world/assets/impasto-miniature-world-sunset.webp" alt="City sunset impasto world"></td>
+    <td><img src="skills/impasto-miniature-world/assets/impasto-miniature-world-coffee.webp" alt="Coffee terrace impasto world"></td>
+    <td><img src="skills/impasto-miniature-world/assets/impasto-miniature-world-beach.webp" alt="Beach sunset impasto world"></td>
+    <td><img src="skills/impasto-miniature-world/assets/impasto-miniature-world-tree-street.webp" alt="Tree street impasto world"></td>
+  </tr>
+</table>
 
-## The eight installable Skills
+## Available Skills
 
-| Skill | Best for | Default mode |
-| --- | --- | --- |
-| [`$image-skillbook`](skills/image-skillbook/SKILL.md) | Style discovery and routing | Router |
-| [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) | Sparse acrylic paper memory | Direct |
-| [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) | Photo-and-enamel keepsake poster | Production |
-| [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) | Warm wax-grain recollection | Production |
-| [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) | Side-by-side carved-ink journal | Production |
-| [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md) | Broad painted retelling | Production |
-| [`$photo-doodle-story`](skills/photo-doodle-story/README.md) | Real photo cues + tiny line characters | Production |
-| [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) | Sculptural oil-paint world | Production |
+- [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) builds a sparse
+  acrylic memory on paper.
+- [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) pairs the original
+  photo with a source-derived enamel emblem.
+- [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) reduces a scene to a
+  warm wax-grain recollection.
+- [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) creates a
+  photo-and-carved-ink journal spread.
+- [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md)
+  reconstructs a scene with broad, airy brushwork.
+- [`$photo-doodle-story`](skills/photo-doodle-story/README.md) turns photographic cues into a
+  small line-drawn story.
+- [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) sculpts the scene into
+  a thick-paint miniature world.
 
-All seven styles are currently Drafts. A working example proves execution, not broad
-reliability; Featured status requires successful tests across meaningfully different
-subjects and a human comparison.
-
-## Install one style
-
-You do not need the router when you already know the treatment you want:
+Each style is independently installable. Install only the treatment you want, or install the
+whole collection:
 
 ```bash
 npx skills add AlbertAZ1992/image-skillbook \
-  --skill photo-doodle-story --global --agent codex --yes
+  --skill '*' --global --agent codex --yes
 ```
 
-For contributors working from a local checkout, install all eight Skills at once:
+## Need Help Choosing?
+
+The optional [`$image-skillbook`](skills/image-skillbook/SKILL.md) router compares the
+available treatments and gives you the install command for its recommendation.
 
 ```bash
-npm run install:local
-# or: bash scripts/install-local.sh
-```
-
-Start a new agent session after installation so the Skill list refreshes.
-
-## Use a Skill
-
-Skill names are natural-language triggers, not terminal commands. Attach one or more
-images and mention the exact `$skill-name`.
-
-```text
-Use $rubber-stamp-travel-journal on this place photograph.
-Keep the photograph at left and the aged-paper stamp at right.
+npx skills add AlbertAZ1992/image-skillbook \
+  --skill image-skillbook --global --agent codex --yes
 ```
 
 ```text
-Use $impasto-miniature-world on every attached photograph.
-Create a separate result for each input.
+Use $image-skillbook to recommend up to three treatments for this photo.
+Explain the trade-offs and do not generate yet.
 ```
 
-```text
-Use $editorial-painted-memory in Prompt-only mode.
-Return the compiled production prompt without generating an image.
-```
+## Requirements
 
-## How execution works
+These Skills require a Skill-compatible agent and an image generation or image editing tool.
+They are designed first for Codex with GPT Image, while their Markdown contracts remain
+portable to other compatible agents. Generated results vary by model, input, and instruction.
 
-```text
-Image + intent
-    ↓
-Select one style Skill
-    ↓
-Compile the visual contract for this image
-    ↓
-Generate the expressive region
-    ↓
-Assemble exact geometry when required
-    ↓
-Review fidelity, style, text, and dimensions
-```
+## Add a Visual Treatment
 
-| Mode | Use it when | Behavior |
-| --- | --- | --- |
-| Direct | A proven treatment should stay almost unchanged | Preserves the creative kernel |
-| Adaptive | Subject or composition needs interpretation | Adjusts selection and simplification |
-| Production | Geometry or source fidelity is measurable | Generates style panels, then assembles them exactly |
-| Prompt-only | Another image runtime will generate | Returns a ready-to-paste compiled prompt |
+Found a useful image prompt or developed a reliable workflow? Keep the raw source in the
+Git-ignored `prompt-inbox/`, record its provenance, and turn the reusable decisions into an
+independent Skill.
 
-## Add a visual treatment
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for the intake, authoring, testing, and publication
+workflow. Public contributions should contain independently written visual contracts and
+publishable examples rather than unreviewed third-party prompt dumps.
 
-Public social posts are not automatically open-licensed. Raw discoveries stay in the
-ignored `prompt-inbox/` until their provenance is understood. The public repository
-contains independently written visual contracts, not an unreviewed prompt dump.
-
-1. Save the source URL, author, model, and reuse terms locally.
-2. Separate duplicate variants from genuinely different visual concepts.
-3. Extract the smallest distinctive visual decisions and write an independent Recipe.
-4. Create one focused style Skill with its own example and install command.
-5. Test multiple subjects before promoting it beyond Draft.
-
-See [the contribution workflow](references/contributing-recipes.md) and
-[Recipe format](references/recipe-format.md).
-
-## Repository structure
-
-```text
-image-skillbook/
-├── skills/
-│   ├── image-skillbook/       # router
-│   └── <style-name>/          # one installable visual Skill
-│       ├── README.md          # public example and usage
-│       ├── SKILL.md           # agent execution contract
-│       ├── agents/openai.yaml # Codex metadata and starter
-│       └── assets/            # self-contained preview
-├── references/recipes/        # public visual contracts
-├── assets/examples/           # combined gallery assets
-├── prompt-inbox/              # local raw intake; ignored by Git
-├── catalog.json
-├── evals/evals.json
-└── scripts/
-    ├── install-local.sh
-    └── verify.mjs
-```
-
-## Verify
+## Verify a Checkout
 
 ```bash
-npm run verify
-npx --yes skills@latest add . --list
+npm run check
 ```
+
+This validates the catalog, Skill packages, documentation links, examples, and compatibility
+with the `skills` installer.
 
 ## License
 
-MIT for repository-authored material. Adapted material must record compatible source
-rights before publication. Example provenance is documented in
+Repository-authored material is available under the [MIT License](LICENSE). Adapted material
+must record compatible source rights before publication. Example provenance is documented in
 [`assets/examples/README.md`](assets/examples/README.md).

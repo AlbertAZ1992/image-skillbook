@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Direct
 - **Input:** one photograph
 - **Output:** one independent 3:4 vertical editorial poster per input
@@ -46,6 +46,8 @@ generic poster template.
 - Use thin imperfect lines for recognition and flat matte acrylic shapes for color.
   Do not substitute a different illustration medium.
 - Suggest the environment with only the few marks needed to retain context.
+- In a dense source, choose one relationship and at most three supporting motifs. Do
+  not turn the lower panel into a complete scene reconstruction.
 - Keep typography optional, small, and derived from visible facts. Do not invent a
   location, year, or event.
 
@@ -67,6 +69,7 @@ Do not ask the image model repeatedly to solve a measurable layout problem.
 - colored-pencil, crayon, bleeding watercolor, or heavy oil-paint texture;
 - glossy 3D, plastic, or polished digital illustration;
 - detailed literal repainting;
+- reproducing every person, window, sign, or object from a dense scene;
 - pure line art without controlled color shapes;
 - busy decoration or large headline typography;
 - fake dates, places, captions, signatures, or watermarks; and
@@ -83,7 +86,7 @@ Do not ask the image model repeatedly to solve a measurable layout problem.
 
 ## Provenance note
 
-This draft was refined from a user-supplied prompt in the local Prompt Inbox. The
+This Recipe was refined from a user-supplied prompt in the local Prompt Inbox. The
 source author, URL, and reuse terms have not been recorded. This file contains an
 originally written abstraction of the visual method rather than the raw prompt; the
 raw text remains outside the public catalog pending provenance review.

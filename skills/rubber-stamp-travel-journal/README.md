@@ -5,12 +5,12 @@
 Pair a place photograph with a small multi-color rubber-stamp impression that
 feels hand-carved and printed into an aged field journal.
 
-## Example
+## Evaluation gallery
 
 <table>
   <tr>
-    <th width="42%">Source</th>
-    <th width="58%">Skill output</th>
+    <th width="42%">Source photograph</th>
+    <th width="58%">Carved stamp journal</th>
   </tr>
   <tr>
     <td>
@@ -26,9 +26,43 @@ feels hand-carved and printed into an aged field journal.
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <img src="assets/source-coffee-terrace.webp" alt="People across several coffee terraces">
+    </td>
+    <td>
+      <img
+        src="assets/rubber-stamp-travel-journal-coffee.webp"
+        alt="Layered terraces compressed into a carved two-color stamp"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-beach-sunset.webp" alt="Three people watching a beach sunset">
+    </td>
+    <td>
+      <img
+        src="assets/rubber-stamp-travel-journal-beach.webp"
+        alt="Umbrella, sunset, and chairs compressed into a carved stamp"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-tree-street.webp" alt="Arching tree above a tiled-roof street">
+    </td>
+    <td>
+      <img
+        src="assets/rubber-stamp-travel-journal-tree-street.webp"
+        alt="Tree and descending street compressed into a text-free rubber stamp"
+      >
+    </td>
+  </tr>
 </table>
 
-This example uses Production mode for an exact 3:4 canvas with equal left/right panels.
+The four-source evaluation covers city, social architecture, coast, and historic street. Each
+result retains place-specific contours and turns uncertain signage into unmarked geometry.
 
 ## Install
 
@@ -55,4 +89,5 @@ Keep the photo on the left and print a small carved-ink interpretation on paper 
 [Read the agent instructions](SKILL.md) ·
 [Inspect the Recipe](../../references/recipes/rubber-stamp-travel-journal.md)
 
-Status: **Draft** — working example, awaiting broader subject testing.
+Status: **Candidate** — reviewed across four varied places; interiors and close landmarks remain
+untested.

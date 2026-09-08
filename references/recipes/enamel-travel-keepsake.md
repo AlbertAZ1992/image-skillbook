@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Production
 - **Input:** one photograph with a memorable person, landmark, or landscape motif
 - **Output:** one strict 3:4 poster with an enamel keepsake above and the authentic

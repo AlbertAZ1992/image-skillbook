@@ -4,6 +4,7 @@ description: >-
   Re-read a supplied photo as a 3:4 editorial story where its real photographic subject
   interacts with a few tiny black-line doodle figures. Use for warm, playful human or pet
   narratives; do not use when the source subject should become a full illustration.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992

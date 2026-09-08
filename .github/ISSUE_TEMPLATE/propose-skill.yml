@@ -1,0 +1,68 @@
+name: Propose a visual Skill
+description: Suggest a repeatable image treatment for the collection
+title: "[Skill proposal]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the visual result and where it is useful. Do not paste a full third-party
+        prompt unless you have permission to redistribute it.
+
+  - type: input
+    id: outcome
+    attributes:
+      label: Visual outcome
+      description: Give the treatment a short working name and describe what changes.
+      placeholder: A photograph becomes...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Best use
+      description: What subjects, moods, or outputs suit this treatment?
+    validations:
+      required: true
+
+  - type: textarea
+    id: distinctive-decisions
+    attributes:
+      label: Distinctive visual decisions
+      description: List the few choices that make this different from existing Skills.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source or inspiration
+      description: Link to the source when public. A link is enough when prompt rights are unclear.
+
+  - type: dropdown
+    id: rights
+    attributes:
+      label: Prompt redistribution rights
+      options:
+        - I wrote the source prompt
+        - Redistribution is explicitly allowed
+        - Rights are unclear or unknown
+        - No source prompt is involved
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Test evidence
+      description: Describe tested subjects, models, successes, and failures. Link images if public.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Publication check
+      options:
+        - label: I have permission to share every image and prompt excerpt included here.
+          required: true

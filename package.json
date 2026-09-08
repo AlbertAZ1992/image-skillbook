@@ -7,7 +7,11 @@
     "node": ">=22"
   },
   "scripts": {
+    "check": "npm run lint && npm run verify && npm run verify:skills",
     "install:local": "bash scripts/install-local.sh",
-    "verify": "node scripts/verify.mjs"
+    "lint": "npx --yes oxlint@1.82.0 scripts/*.mjs && npx --yes oxfmt@0.67.0 --check scripts/*.mjs",
+    "new:skill": "node scripts/new-skill.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:skills": "npx --yes skills@1.5.24 add . --list"
   }
 }

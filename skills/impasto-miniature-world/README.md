@@ -2,8 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Rebuild a photograph as a compact miniature world made from sculptural oil paint,
-palette-knife ridges, dragged edges, and luminous glaze.
+Designed first for Codex and GPT Image, this installable Skill rebuilds a photograph as a compact
+miniature world made from sculptural oil paint, palette-knife ridges, dragged edges, and luminous
+glaze.
 
 ## Evaluation gallery
 

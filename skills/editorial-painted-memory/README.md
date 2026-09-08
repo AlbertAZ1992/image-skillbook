@@ -2,8 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Turn a photograph into a quiet 3:4 editorial diptych: the recognizable source
-above, and a sparse acrylic-on-paper recollection below.
+Designed first for Codex and GPT Image, this installable Skill turns a photograph into a quiet
+3:4 editorial diptych: the recognizable source above and a sparse acrylic-on-paper recollection
+below.
 
 ## Evaluation gallery
 

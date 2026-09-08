@@ -1,6 +1,6 @@
 <div align="center">
 
-# Image Skillbook — Codex 与 GPT Image 图像技能集
+# Image Skillbook — Codex 与 GPT Image Skills
 
 一套用于 AI 图像生成和照片编辑的开源 Agent Skills。
 
@@ -237,7 +237,7 @@ Draft 升为 Candidate。进入任一 Skill 页面，可以并排查看更大的
   </tr>
 </table>
 
-## 当前可以安装的 Skills
+## 选择一个 AI 照片编辑 Skill
 
 - [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md)：稀疏丙烯纸张记忆。
 - [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md)：原照片与珐琅

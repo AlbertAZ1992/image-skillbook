@@ -2,7 +2,8 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Pair an authentic photograph with a small premium enamel emblem on a clean color field.
+Designed first for Codex and GPT Image, this installable Skill pairs an authentic photograph
+with a small premium enamel emblem on a clean color field.
 
 ## Evaluation gallery
 

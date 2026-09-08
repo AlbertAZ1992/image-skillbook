@@ -2,8 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Retell a photograph through broad gouache, acrylic, pastel, or palette-knife
-gestures while keeping its central relationship and directional rhythm.
+Designed first for Codex and GPT Image, this installable Skill retells a photograph through broad
+gouache, acrylic, pastel, or palette-knife gestures while keeping its central relationship and
+directional rhythm.
 
 ## Evaluation gallery
 

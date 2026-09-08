@@ -2,8 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Pair a place photograph with a small multi-color rubber-stamp impression that
-feels hand-carved and printed into an aged field journal.
+Designed first for Codex and GPT Image, this installable Skill pairs a place photograph with a
+small multi-color rubber-stamp impression that feels hand-carved and printed into an aged field
+journal.
 
 ## Evaluation gallery
 

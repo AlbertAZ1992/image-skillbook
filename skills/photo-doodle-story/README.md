@@ -2,8 +2,8 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Keep the real photographic subject and add a restrained miniature story told by a
-few thin, imperfect black-line characters.
+Designed first for Codex and GPT Image, this installable Skill keeps the real photographic subject
+and adds a restrained miniature story told by a few thin, imperfect black-line characters.
 
 ## Evaluation gallery
 

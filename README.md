@@ -1,12 +1,12 @@
 <div align="center">
 
-# Image Skillbook — Codex AI Image Skills
+# Image Skillbook — Codex & GPT Image Skills
 
-Open-source Agent Skills for repeatable GPT Image generation and AI photo editing.
+Open-source Agent Skills for repeatable AI image generation and photo editing.
 
 Image Skillbook packages seven tested visual treatments plus one discovery router. Built first
-for Codex and GPT Image, every Skill includes source-aware adaptation rules, real
-before-and-after examples, one-command installation, and review checks.
+for Codex and GPT Image, every independently installable Skill includes source-aware adaptation
+rules, real before-and-after examples, one-command installation, and review checks.
 
 <a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
   <img
@@ -240,7 +240,7 @@ each source beside its result at a larger size.
   </tr>
 </table>
 
-## Available Skills
+## Choose an AI Photo Editing Skill
 
 - [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) builds a sparse
   acrylic memory on paper.

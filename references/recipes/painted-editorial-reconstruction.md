@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Production
 - **Input:** one photograph
 - **Output:** one 3:4 photo-and-paint editorial poster per input

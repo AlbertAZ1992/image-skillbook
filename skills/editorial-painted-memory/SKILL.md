@@ -4,6 +4,7 @@ description: >-
   Turn each supplied photograph into a 3:4 editorial diptych with the faithful photo
   above and a sparse acrylic-on-paper recollection below. Use for quiet art-book,
   travel-journal, or poetic photo treatments; do not use for crayon or oil-paint looks.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992
@@ -18,6 +19,8 @@ recognizably photographic with only restrained editorial grading. In the lower r
 reduce the scene to its strongest silhouette, gesture, objects, and spatial relationship.
 Draw it small on warm textured paper with thin imperfect lines and no more than four
 matte acrylic color shapes. Let negative space occupy most of the lower region.
+For dense scenes, choose one relationship and at most three supporting motifs instead of
+redrawing every person, window, sign, or object.
 
 Do not substitute crayon, watercolor, heavy oil paint, polished vector art, 3D, or a
 commercial cartoon finish. Add small factual typography only when supplied or certain.

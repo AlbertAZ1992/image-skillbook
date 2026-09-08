@@ -4,6 +4,7 @@ description: >-
   Pair a supplied place photograph with a small multi-color rubber-stamp impression on
   aged paper. Use for architectural, city, coast, road, and landscape field-journal
   treatments in portrait or landscape; do not use for postal seals or smooth vector logos.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992
@@ -26,6 +27,9 @@ Avoid circular seals, postage motifs, wax, sticker collage, souvenir templates, 
 vectors, fully illustrated landscapes, repeated micro-detail, invented geography, and
 perfectly uniform ink. Add a small typewriter-like field note only from supplied or
 certain facts.
+
+When text is omitted, turn signs into plain unmarked geometry. Reject pseudo-writing,
+calligraphy-like strokes, simulated glyphs, and decorative marks that resemble a label.
 
 Use the best available image tool. When geometry or source fidelity is exact, generate
 the right paper-and-stamp region separately and assemble deterministically. Verify

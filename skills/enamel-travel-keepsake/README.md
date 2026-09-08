@@ -2,14 +2,15 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Pair an authentic photograph with a small premium enamel emblem on a clean color field.
+Designed first for Codex and GPT Image, this installable Skill pairs an authentic photograph
+with a small premium enamel emblem on a clean color field.
 
-## Example
+## Evaluation gallery
 
 <table>
   <tr>
-    <th width="50%">Source</th>
-    <th width="50%">Skill output</th>
+    <th width="42%">Source photograph</th>
+    <th width="58%">Enamel keepsake</th>
   </tr>
   <tr>
     <td>
@@ -25,10 +26,44 @@ Pair an authentic photograph with a small premium enamel emblem on a clean color
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <img src="assets/source-coffee-terrace.webp" alt="People across several coffee terraces">
+    </td>
+    <td>
+      <img
+        src="assets/enamel-travel-keepsake-coffee.webp"
+        alt="Layered terraces and umbrellas compressed into a small enamel keepsake"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-beach-sunset.webp" alt="Three people watching a beach sunset">
+    </td>
+    <td>
+      <img
+        src="assets/enamel-travel-keepsake-beach.webp"
+        alt="Three seated figures beneath an umbrella as an enamel keepsake"
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/source-tree-street.webp" alt="Arching tree above a tiled-roof street">
+    </td>
+    <td>
+      <img
+        src="assets/enamel-travel-keepsake-tree-street.webp"
+        alt="Arching tree and rooftops compressed into a small enamel keepsake"
+      >
+    </td>
+  </tr>
 </table>
 
-This example uses Production mode: the generated keepsake panel sits above an unchanged
-normalized source crop on an exact 3:4 canvas.
+The four-source evaluation covers skyline, layered architecture, people, backlit silhouettes,
+and an irregular natural landmark. Each result tests whether one decisive motif survives
+compression into a small manufacturable object.
 
 ## Install
 
@@ -56,4 +91,5 @@ Keep the photograph in the lower half and omit any uncertain location name.
 [Read the agent instructions](SKILL.md) ·
 [Inspect the Recipe](../../references/recipes/enamel-travel-keepsake.md)
 
-Status: **Draft** — working example, awaiting broader subject testing.
+Status: **Candidate** — reviewed across four varied photographs; standalone objects, pets, and
+close portraits remain untested.

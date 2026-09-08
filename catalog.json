@@ -5,7 +5,7 @@
     {
       "id": "editorial-painted-memory",
       "name": "Editorial Painted Memory",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "direct",
       "file": "references/recipes/editorial-painted-memory.md",
       "skill": "skills/editorial-painted-memory/SKILL.md",
@@ -21,12 +21,28 @@
       },
       "tested_with": [
         "ChatGPT image generation; underlying model not confirmed",
-        "OpenAI built-in image generation; 4 sunset-series inputs; 2026-09-06"
+        "OpenAI built-in image generation; 4 sunset-series inputs; 2026-09-06",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/editorial-painted-memory-sunset.webp",
+          "source": "skills/editorial-painted-memory/assets/source-sunset.webp",
+          "output": "skills/editorial-painted-memory/assets/editorial-painted-memory-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/editorial-painted-memory/assets/source-coffee-terrace.webp",
+          "output": "skills/editorial-painted-memory/assets/editorial-painted-memory-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/editorial-painted-memory/assets/source-beach-sunset.webp",
+          "output": "skills/editorial-painted-memory/assets/editorial-painted-memory-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/editorial-painted-memory/assets/source-tree-street.webp",
+          "output": "skills/editorial-painted-memory/assets/editorial-painted-memory-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -34,7 +50,7 @@
     {
       "id": "enamel-travel-keepsake",
       "name": "Enamel Travel Keepsake",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/enamel-travel-keepsake.md",
       "skill": "skills/enamel-travel-keepsake/SKILL.md",
@@ -49,12 +65,28 @@
         "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/enamel-travel-keepsake-sunset.webp",
+          "source": "skills/enamel-travel-keepsake/assets/source-sunset.webp",
+          "output": "skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/enamel-travel-keepsake/assets/source-coffee-terrace.webp",
+          "output": "skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/enamel-travel-keepsake/assets/source-beach-sunset.webp",
+          "output": "skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/enamel-travel-keepsake/assets/source-tree-street.webp",
+          "output": "skills/enamel-travel-keepsake/assets/enamel-travel-keepsake-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -62,7 +94,7 @@
     {
       "id": "crayon-memory-postcard",
       "name": "Crayon Memory Postcard",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/crayon-memory-postcard.md",
       "skill": "skills/crayon-memory-postcard/SKILL.md",
@@ -77,12 +109,28 @@
         "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; sunset source; 2026-09-06"
+        "OpenAI built-in image generation; sunset source; 2026-09-06",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/crayon-memory-postcard-sunset.webp",
+          "source": "skills/crayon-memory-postcard/assets/source-sunset.webp",
+          "output": "skills/crayon-memory-postcard/assets/crayon-memory-postcard-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/crayon-memory-postcard/assets/source-coffee-terrace.webp",
+          "output": "skills/crayon-memory-postcard/assets/crayon-memory-postcard-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/crayon-memory-postcard/assets/source-beach-sunset.webp",
+          "output": "skills/crayon-memory-postcard/assets/crayon-memory-postcard-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/crayon-memory-postcard/assets/source-tree-street.webp",
+          "output": "skills/crayon-memory-postcard/assets/crayon-memory-postcard-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -90,7 +138,7 @@
     {
       "id": "rubber-stamp-travel-journal",
       "name": "Rubber Stamp Travel Journal",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/rubber-stamp-travel-journal.md",
       "skill": "skills/rubber-stamp-travel-journal/SKILL.md",
@@ -105,12 +153,28 @@
         "source_status": "Unresolved; two raw variants retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/rubber-stamp-travel-journal-sunset.webp",
+          "source": "skills/rubber-stamp-travel-journal/assets/source-sunset.webp",
+          "output": "skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/rubber-stamp-travel-journal/assets/source-coffee-terrace.webp",
+          "output": "skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/rubber-stamp-travel-journal/assets/source-beach-sunset.webp",
+          "output": "skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/rubber-stamp-travel-journal/assets/source-tree-street.webp",
+          "output": "skills/rubber-stamp-travel-journal/assets/rubber-stamp-travel-journal-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -118,7 +182,7 @@
     {
       "id": "painted-editorial-reconstruction",
       "name": "Painted Editorial Reconstruction",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/painted-editorial-reconstruction.md",
       "skill": "skills/painted-editorial-reconstruction/SKILL.md",
@@ -133,12 +197,28 @@
         "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; sunset source; 2026-09-06"
+        "OpenAI built-in image generation; sunset source; 2026-09-06",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/painted-editorial-reconstruction-sunset.webp",
+          "source": "skills/painted-editorial-reconstruction/assets/source-sunset.webp",
+          "output": "skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/painted-editorial-reconstruction/assets/source-coffee-terrace.webp",
+          "output": "skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/painted-editorial-reconstruction/assets/source-beach-sunset.webp",
+          "output": "skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/painted-editorial-reconstruction/assets/source-tree-street.webp",
+          "output": "skills/painted-editorial-reconstruction/assets/painted-editorial-reconstruction-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -146,7 +226,7 @@
     {
       "id": "photo-doodle-story",
       "name": "Photo Doodle Story",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/photo-doodle-story.md",
       "skill": "skills/photo-doodle-story/SKILL.md",
@@ -161,12 +241,28 @@
         "source_status": "Unresolved; bilingual raw variants retained locally"
       },
       "tested_with": [
-        "OpenAI built-in image generation; sunset source; 2026-09-06"
+        "OpenAI built-in image generation; sunset source; 2026-09-06",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/photo-doodle-story-sunset.webp",
+          "source": "skills/photo-doodle-story/assets/source-sunset.webp",
+          "output": "skills/photo-doodle-story/assets/photo-doodle-story-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/photo-doodle-story/assets/source-coffee-terrace.webp",
+          "output": "skills/photo-doodle-story/assets/photo-doodle-story-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/photo-doodle-story/assets/source-beach-sunset.webp",
+          "output": "skills/photo-doodle-story/assets/photo-doodle-story-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/photo-doodle-story/assets/source-tree-street.webp",
+          "output": "skills/photo-doodle-story/assets/photo-doodle-story-tree-street.webp",
           "mode": "production"
         }
       ]
@@ -174,7 +270,7 @@
     {
       "id": "impasto-miniature-world",
       "name": "Impasto Miniature World",
-      "status": "draft",
+      "status": "candidate",
       "default_mode": "production",
       "file": "references/recipes/impasto-miniature-world.md",
       "skill": "skills/impasto-miniature-world/SKILL.md",
@@ -189,12 +285,28 @@
         "source_status": "Unresolved; raw prompt retained in local ignored inbox"
       },
       "tested_with": [
-        "OpenAI built-in image generation; revised sunset source; 2026-09-07"
+        "OpenAI built-in image generation; revised sunset source; 2026-09-07",
+        "OpenAI built-in image generation; coffee terrace, beach sunset, and tree-lined street; 2026-09-08"
       ],
       "examples": [
         {
-          "source": "assets/examples/source-sunset.webp",
-          "output": "assets/examples/impasto-miniature-world-sunset.webp",
+          "source": "skills/impasto-miniature-world/assets/source-sunset.webp",
+          "output": "skills/impasto-miniature-world/assets/impasto-miniature-world-sunset.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/impasto-miniature-world/assets/source-coffee-terrace.webp",
+          "output": "skills/impasto-miniature-world/assets/impasto-miniature-world-coffee.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/impasto-miniature-world/assets/source-beach-sunset.webp",
+          "output": "skills/impasto-miniature-world/assets/impasto-miniature-world-beach.webp",
+          "mode": "production"
+        },
+        {
+          "source": "skills/impasto-miniature-world/assets/source-tree-street.webp",
+          "output": "skills/impasto-miniature-world/assets/impasto-miniature-world-tree-street.webp",
           "mode": "production"
         }
       ]

@@ -2,12 +2,31 @@
   "name": "image-skillbook",
   "version": "0.1.0",
   "private": true,
+  "description": "Open-source Codex and GPT Image Skills for AI image generation and photo editing.",
+  "keywords": [
+    "codex",
+    "gpt-image",
+    "image-generation",
+    "image-editing",
+    "agent-skills",
+    "photo-editing"
+  ],
+  "homepage": "https://github.com/AlbertAZ1992/image-skillbook#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertAZ1992/image-skillbook.git"
+  },
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
+    "check": "npm run lint && npm run verify && npm run verify:skills",
     "install:local": "bash scripts/install-local.sh",
-    "verify": "node scripts/verify.mjs"
+    "lint": "npx --yes oxlint@1.82.0 scripts/*.mjs && npx --yes oxfmt@0.67.0 --check scripts/*.mjs",
+    "new:skill": "node scripts/new-skill.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:skills": "npx --yes skills@1.5.24 add . --list"
   }
 }

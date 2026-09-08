@@ -4,6 +4,7 @@ description: >-
   Turn a supplied person, landmark, or landscape photo into a strict 3:4 editorial
   poster: a small premium enamel keepsake above and the authentic source photograph
   below. Use for collectible travel-memory posters, not standalone product renders.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992

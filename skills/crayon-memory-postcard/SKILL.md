@@ -4,6 +4,7 @@ description: >-
   Turn each photo into a 3:4 postcard with a faithful photograph above and a warm,
   quirky crayon recollection below. Use when visible wax grain and personal travel
   journal charm are desired; do not use for acrylic, watercolor, or polished cartoons.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992

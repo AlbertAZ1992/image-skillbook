@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Production
 - **Input:** one place, architecture, city, coast, or landscape photograph
 - **Output:** one photograph-and-stamped-paper editorial spread per input
@@ -36,6 +36,8 @@ feels collected and observed rather than branded.
 - Use two to four restrained source-derived inks.
 - Add a small field-note label only from facts the user supplies or the image clearly
   establishes. Do not guess a location or year.
+- When omitting text, turn source signs into unmarked shapes. Do not simulate their
+  letterforms inside the stamp.
 
 ## Production finishing
 
@@ -49,7 +51,7 @@ equal regions matter. Assemble the final spread deterministically and verify can
 - smooth vector logos or fully illustrated landscapes;
 - generic city icons and repeated micro-detail;
 - perfectly registered, uniformly inked digital edges;
-- decorative copy, invented geography, or misspelled labels; and
+- decorative copy, pseudo-writing, invented geography, or misspelled labels; and
 - redrawing or creatively rebuilding the photographic region.
 
 ## Review questions

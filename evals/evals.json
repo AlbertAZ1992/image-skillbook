@@ -10,30 +10,30 @@
     },
     {
       "id": 1,
-      "name": "direct-editorial-recipe",
-      "prompt": "Use Editorial Painted Memory separately on every uploaded photo.",
-      "expected_output": "Uses Direct mode, makes separate assets, and reports saved outputs.",
+      "name": "choose-and-route-installed-style",
+      "prompt": "Choose the best Skillbook treatment for this quiet sunset and proceed.",
+      "expected_output": "Chooses one image-specific treatment and follows its installed Skill.",
       "files": []
     },
     {
       "id": 2,
-      "name": "production-exact-split",
-      "prompt": "Make it 1200x1600 with an exact 50:50 split and an unchanged photo.",
-      "expected_output": "Uses Production mode and verifies geometry and photo fidelity.",
+      "name": "unavailable-style-install-command",
+      "prompt": "Use a Skillbook style that is not installed in this session.",
+      "expected_output": "Does not approximate the style and returns its exact install command.",
       "files": []
     },
     {
       "id": 3,
-      "name": "unclear-social-prompt-license",
-      "prompt": "Add this Reddit prompt verbatim. I do not know its license.",
-      "expected_output": "Keeps it private, records the source, and proposes an original recipe.",
+      "name": "separate-multiple-inputs",
+      "prompt": "Choose a treatment and process each attached photograph separately.",
+      "expected_output": "Routes to one style and keeps one independent output per input.",
       "files": []
     },
     {
       "id": 4,
-      "name": "convert-local-prompt-inbox",
-      "prompt": "Inventory prompt-inbox and convert its first unreviewed concept.",
-      "expected_output": "Scans every file, keeps raw text private, and creates a sourced Draft.",
+      "name": "do-not-intercept-named-style",
+      "prompt": "Use $photo-doodle-story on this pet photograph.",
+      "expected_output": "Leaves execution to the named style Skill without comparing alternatives.",
       "files": []
     }
   ]

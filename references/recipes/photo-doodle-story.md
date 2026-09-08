@@ -2,7 +2,7 @@
 
 ## Contract
 
-- **Status:** draft
+- **Status:** candidate
 - **Default mode:** Production
 - **Input:** one photograph with a readable subject, action, or relationship
 - **Output:** one 3:4 editorial diptych with a source photo and a playful photo-doodle

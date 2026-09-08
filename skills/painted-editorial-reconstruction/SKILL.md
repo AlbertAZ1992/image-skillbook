@@ -4,6 +4,7 @@ description: >-
   Turn each photograph into a 3:4 editorial diptych with the faithful photo above and a
   broad gouache, acrylic, pastel, or palette-knife reconstruction below. Use for painterly
   narrative re-composition; do not use for tiny flat vignettes or literal tracing.
+license: MIT
 metadata:
   version: "0.1.0"
   author: AlbertAZ1992

@@ -1,12 +1,15 @@
 <div align="center">
 
-# Image Skillbook — Codex & GPT Image Skills
+# Image Skillbook — Curated AI Image Skills & GPT Image Recipes
 
-Open-source Agent Skills for repeatable AI image generation and photo editing.
+Turn real photos into doodle stories, crayon art, editorial paintings, and tactile keepsakes.
 
-Image Skillbook packages seven tested visual treatments plus one discovery router. Built first
-for Codex and GPT Image, every independently installable Skill includes source-aware adaptation
-rules, real before-and-after examples, one-command installation, and review checks.
+Image Skillbook is a curated collection of installable AI image Skills and tested GPT Image
+prompt recipes. Use Codex to transform a photograph into a tiny doodle story, crayon postcard,
+enamel keepsake, rubber-stamp journal, editorial painting, or impasto miniature world.
+
+This is not a raw prompt dump. Every independently installable Skill includes source-aware
+adaptation rules, real before-and-after examples, one-command installation, and review checks.
 
 <a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
   <img
@@ -37,6 +40,18 @@ Use $photo-doodle-story on this photograph.
 
 Open a style below before installing it to see the source image, generated result, intended
 use, and invocation examples.
+
+## Find an AI Photo Style by Outcome
+
+| What you want to make | Installable Skill |
+| --- | --- |
+| Add tiny doodle characters to a real photo | [`$photo-doodle-story`](skills/photo-doodle-story/README.md) |
+| Turn a photo into warm crayon art | [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) |
+| Make an enamel travel keepsake from a photo | [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) |
+| Turn architecture or a landscape into rubber-stamp art | [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) |
+| Repaint a photo as a sparse editorial memory | [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) |
+| Reconstruct a photo with broad gouache or acrylic brushwork | [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md) |
+| Turn a photo into a sculptural impasto miniature | [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) |
 
 ## See the Results
 
@@ -240,22 +255,7 @@ each source beside its result at a larger size.
   </tr>
 </table>
 
-## Choose an AI Photo Editing Skill
-
-- [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) builds a sparse
-  acrylic memory on paper.
-- [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) pairs the original
-  photo with a source-derived enamel emblem.
-- [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) reduces a scene to a
-  warm wax-grain recollection.
-- [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) creates a
-  photo-and-carved-ink journal spread.
-- [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md)
-  reconstructs a scene with broad, airy brushwork.
-- [`$photo-doodle-story`](skills/photo-doodle-story/README.md) turns photographic cues into a
-  small line-drawn story.
-- [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) sculpts the scene into
-  a thick-paint miniature world.
+## Install Every AI Image Skill
 
 Each style is independently installable. Install only the treatment you want, or install the
 whole collection:

@@ -1,9 +1,10 @@
-# Crayon Memory Postcard
+# Crayon Memory Postcard — Turn a Photo into Crayon Art
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill pairs a faithful photograph
-with a warm, quirky wax-crayon recollection that feels like a personally observed travel memory.
+The Crayon Memory Postcard Skill turns a real photograph into a warm, quirky wax-crayon
+recollection that feels like a personally observed travel memory. Install it in Codex and run
+it with GPT Image while keeping the source scene recognizable.
 
 ## Evaluation gallery
 

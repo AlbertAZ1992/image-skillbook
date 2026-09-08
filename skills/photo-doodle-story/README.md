@@ -1,9 +1,10 @@
-# Photo Doodle Story
+# Photo Doodle Story — Add Tiny Doodles to a Real Photo
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill keeps the real photographic subject
-and adds a restrained miniature story told by a few thin, imperfect black-line characters.
+The Photo Doodle Story Skill keeps the real photographic subject and adds a restrained miniature
+story told by a few thin, imperfect black-line characters. Install it in Codex and run it with
+GPT Image to add source-aware doodles without replacing the photograph.
 
 ## Evaluation gallery
 

@@ -1,10 +1,10 @@
-# Painted Editorial Reconstruction
+# Painted Editorial Reconstruction — Repaint a Photo with Broad Brushwork
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill retells a photograph through broad
-gouache, acrylic, pastel, or palette-knife gestures while keeping its central relationship and
-directional rhythm.
+The Painted Editorial Reconstruction Skill retells a photograph through broad gouache, acrylic,
+pastel, or palette-knife gestures while keeping its central relationship and directional rhythm.
+Install it in Codex and run it with GPT Image for a painterly photo reconstruction.
 
 ## Evaluation gallery
 

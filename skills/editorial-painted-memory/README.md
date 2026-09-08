@@ -1,10 +1,10 @@
-# Editorial Painted Memory
+# Editorial Painted Memory — Turn a Photo into Editorial Art
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill turns a photograph into a quiet
-3:4 editorial diptych: the recognizable source above and a sparse acrylic-on-paper recollection
-below.
+The Editorial Painted Memory Skill turns a photograph into a quiet 3:4 editorial diptych: the
+recognizable source above and a sparse acrylic-on-paper recollection below. Install it in Codex
+and run it with GPT Image for a restrained photo-to-art transformation.
 
 ## Evaluation gallery
 

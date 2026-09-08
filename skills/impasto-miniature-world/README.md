@@ -1,10 +1,10 @@
-# Impasto Miniature World
+# Impasto Miniature World — Turn a Photo into Impasto Art
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill rebuilds a photograph as a compact
-miniature world made from sculptural oil paint, palette-knife ridges, dragged edges, and luminous
-glaze.
+The Impasto Miniature World Skill rebuilds a photograph as a compact world made from sculptural
+oil paint, palette-knife ridges, dragged edges, and luminous glaze. Install it in Codex and run
+it with GPT Image for a vivid photo-to-impasto transformation.
 
 ## Evaluation gallery
 

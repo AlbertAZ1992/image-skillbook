@@ -1,9 +1,10 @@
-# Enamel Travel Keepsake
+# Enamel Travel Keepsake — Turn a Photo into an Enamel Pin
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill pairs an authentic photograph
-with a small premium enamel emblem on a clean color field.
+The Enamel Travel Keepsake Skill extracts recognizable details from a real photograph and turns
+them into a small premium enamel emblem on a clean color field. Install it in Codex and run it
+with GPT Image to create a source-aware travel keepsake.
 
 ## Evaluation gallery
 

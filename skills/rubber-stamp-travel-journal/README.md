@@ -1,10 +1,10 @@
-# Rubber Stamp Travel Journal
+# Rubber Stamp Travel Journal — Turn a Photo into Rubber Stamp Art
 
 [← Explore every Image Skillbook style](../../README.md)
 
-Designed first for Codex and GPT Image, this installable Skill pairs a place photograph with a
-small multi-color rubber-stamp impression that feels hand-carved and printed into an aged field
-journal.
+The Rubber Stamp Travel Journal Skill turns recognizable details from a place photograph into a
+small multi-color stamp that feels hand-carved and printed into an aged field journal. Install it
+in Codex and run it with GPT Image for tactile rubber-stamp art.
 
 ## Evaluation gallery
 

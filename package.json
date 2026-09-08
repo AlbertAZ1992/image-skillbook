@@ -2,14 +2,17 @@
   "name": "image-skillbook",
   "version": "0.1.0",
   "private": true,
-  "description": "Open-source Codex and GPT Image Skills for AI image generation and photo editing.",
+  "description": "Curated AI image Skills and tested GPT Image recipes for creative photo transformations.",
   "keywords": [
     "codex",
     "gpt-image",
+    "gpt-image-prompts",
     "image-generation",
     "image-editing",
     "agent-skills",
-    "photo-editing"
+    "ai-image-skills",
+    "photo-editing",
+    "photo-to-art"
   ],
   "homepage": "https://github.com/AlbertAZ1992/image-skillbook#readme",
   "repository": {

@@ -1,12 +1,15 @@
 <div align="center">
 
-# Image Skillbook — Codex 与 GPT Image Skills
+# Image Skillbook — AI 图片 Skills 与 GPT Image 创作配方
 
-一套用于 AI 图像生成和照片编辑的开源 Agent Skills。
+把真实照片变成微型涂鸦故事、蜡笔画、编辑绘画与有触感的旅行纪念物。
 
-Image Skillbook 收录 7 种经过测试的视觉处理效果和 1 个选型总控。项目优先适配 Codex
-与 GPT Image；每个 Skill 都包含基于原图的适配规则、真实前后对比、一键安装命令和
-验收标准。
+Image Skillbook 是一套精选、可独立安装的 AI 图片 Skills 和经过测试的 GPT Image
+提示词配方。你可以在 Codex 中把一张照片转成微型涂鸦故事、蜡笔明信片、珐琅纪念物、
+橡皮章手账、编辑绘画或厚涂微缩世界。
+
+这里不是未经整理的 Prompt 合集。每个 Skill 都包含基于原图的适配规则、真实前后对比、
+一键安装命令和验收标准。
 
 <a href="https://github.com/AlbertAZ1992/image-skillbook/actions/workflows/verify.yml">
   <img
@@ -36,6 +39,18 @@ npx skills add AlbertAZ1992/image-skillbook \
 ```
 
 安装前可以先打开下面的风格页面，查看原图、生成效果、适用场景和调用示例。
+
+## 按照想要的图片效果选择 Skill
+
+| 你想做出的效果 | 可以安装的 Skill |
+| --- | --- |
+| 给真实照片加入克制的微型涂鸦人物 | [`$photo-doodle-story`](skills/photo-doodle-story/README.md) |
+| 把照片变成温暖的蜡笔画 | [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md) |
+| 从照片提炼一枚珐琅旅行纪念物 | [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md) |
+| 把建筑或风景变成橡皮章手账 | [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md) |
+| 把照片重绘成留白克制的编辑记忆 | [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md) |
+| 用水粉、丙烯或粉彩大笔触重构照片 | [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md) |
+| 把照片变成雕塑感厚涂微缩世界 | [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md) |
 
 ## 查看处理效果
 
@@ -237,19 +252,7 @@ Draft 升为 Candidate。进入任一 Skill 页面，可以并排查看更大的
   </tr>
 </table>
 
-## 选择一个 AI 照片编辑 Skill
-
-- [`$editorial-painted-memory`](skills/editorial-painted-memory/README.md)：稀疏丙烯纸张记忆。
-- [`$enamel-travel-keepsake`](skills/enamel-travel-keepsake/README.md)：原照片与珐琅
-  纪念物组合。
-- [`$crayon-memory-postcard`](skills/crayon-memory-postcard/README.md)：温暖的蜡质颗粒回忆。
-- [`$rubber-stamp-travel-journal`](skills/rubber-stamp-travel-journal/README.md)：照片与
-  雕刻缺墨手账。
-- [`$painted-editorial-reconstruction`](skills/painted-editorial-reconstruction/README.md)：
-  大笔触绘画式重构。
-- [`$photo-doodle-story`](skills/photo-doodle-story/README.md)：真实摄影线索与黑线小故事。
-- [`$impasto-miniature-world`](skills/impasto-miniature-world/README.md)：雕塑感厚涂
-  微缩世界。
+## 安装全部 AI 图片 Skills
 
 每种风格都可以独立安装。你也可以一次安装整个集合：
 

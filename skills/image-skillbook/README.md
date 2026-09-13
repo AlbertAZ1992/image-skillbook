@@ -2,6 +2,10 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This selector remains available for the original packages. For one install, one command and
+> the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Image Skillbook router compares the seven visual Skills in this repository and recommends
 the best fit for a photograph, desired mood, and intended use. It is a selector: it does not
 generate an image or approximate a visual treatment by itself.

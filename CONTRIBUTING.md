@@ -1,8 +1,15 @@
 # Contributing to Image Skillbook
 
-Image Skillbook grows one focused visual treatment at a time. A contribution should leave
-users with an independently installable Skill, a real before-and-after example, and enough
-instructions for an agent to reproduce the treatment on a different image.
+> **Maintenance mode:** this repository preserves the original seven independently installable
+> Skills. Send compatibility, security and documentation fixes here. Add new visual styles to
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook), where one shared Skill
+> can grow without creating another installable package. The workflow below remains as the
+> maintenance contract for the original packages.
+
+Image Skillbook originally grew one focused visual treatment at a time. Maintenance changes
+should keep each existing package independently installable, preserve its real before-and-after
+examples, and leave enough instructions for an agent to reproduce the treatment on a different
+image.
 
 ## Start with private intake
 

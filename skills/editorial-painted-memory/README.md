@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Editorial Painted Memory Skill turns a photograph into a quiet 3:4 editorial diptych: the
 recognizable source above and a sparse acrylic-on-paper recollection below. Install it in Codex
 and run it with GPT Image for a restrained photo-to-art transformation.

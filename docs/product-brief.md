@@ -1,5 +1,9 @@
 # Image Skillbook — Product Brief
 
+> **Historical brief:** this document records the original independently installable Skill
+> model. Active product development and new styles now live in
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 ## Product promise
 
 **One image. Many ways to see it.**

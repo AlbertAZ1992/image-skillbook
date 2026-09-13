@@ -24,6 +24,26 @@ before-and-after examples, one-command installation, and review checks.
 
 </div>
 
+## Continued as Albert's Imagebook
+
+Image Skillbook helped validate the first seven styles as independently installable Skills.
+Those packages and their existing install commands remain available. As the library grew,
+however, separate installs plus an extra selection router made one creative collection feel
+unnecessarily fragmented.
+
+Active development and new styles have moved to
+[Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook): one installable Skill,
+one `$albert-imagebook` command, and one growing style library.
+
+```bash
+npx --yes skills@1.5.24 add AlbertAZ1992/albert-imagebook \
+  --skill albert-imagebook --global --agent codex --yes
+```
+
+This repository is now in maintenance mode. It will preserve the original Skill IDs and accept
+compatibility, security and documentation fixes, while new visual styles are added to Albert's
+Imagebook.
+
 ## What Is an AI Image Skill?
 
 An AI image Skill is an installable instruction package that tells a compatible agent how to
@@ -294,15 +314,12 @@ These Skills require a Skill-compatible agent and an image generation or image e
 They are designed first for Codex with GPT Image, while their Markdown contracts remain
 portable to other compatible agents. Generated results vary by model, input, and instruction.
 
-## Add a Visual Treatment
+## Maintenance Policy
 
-Found a useful image prompt or developed a reliable workflow? Keep the raw source in the
-Git-ignored `prompt-inbox/`, record its provenance, and turn the reusable decisions into an
-independent Skill.
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md) for the intake, authoring, testing, and publication
-workflow. Public contributions should contain independently written visual contracts and
-publishable examples rather than unreviewed third-party prompt dumps.
+Compatibility, security and documentation fixes for the seven independent Skills are welcome.
+Add new visual styles to [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook),
+where a style joins the shared workflow without becoming another installable SKU. The historical
+authoring process remains in [CONTRIBUTING.md](CONTRIBUTING.md) for maintainers of these packages.
 
 ## Verify a Checkout
 

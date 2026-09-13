@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Enamel Travel Keepsake Skill extracts recognizable details from a real photograph and turns
 them into a small premium enamel emblem on a clean color field. Install it in Codex and run it
 with GPT Image to create a source-aware travel keepsake.

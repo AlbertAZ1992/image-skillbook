@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Painted Editorial Reconstruction Skill retells a photograph through broad gouache, acrylic,
 pastel, or palette-knife gestures while keeping its central relationship and directional rhythm.
 Install it in Codex and run it with GPT Image for a painterly photo reconstruction.

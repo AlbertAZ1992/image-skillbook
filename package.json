@@ -2,7 +2,7 @@
   "name": "image-skillbook",
   "version": "0.1.0",
   "private": true,
-  "description": "Open-source Codex image Skills for GPT Image with seven tested photo-to-art styles.",
+  "description": "Legacy collection of seven independently installable Codex photo-to-art Skills, continued as Albert's Imagebook.",
   "keywords": [
     "codex",
     "gpt-image",

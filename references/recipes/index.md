@@ -1,5 +1,8 @@
 # Recipe Reference Index
 
+> This index maintains the original seven independent Skills. Add new styles to
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 Recipes are maintainer-facing contracts behind the independently installable Skills. Users
 should start from the [main README](../../README.md) and open a Skill page to install or try a
 treatment. `catalog.json` is the source of truth for machine-readable status and metadata.
@@ -16,5 +19,5 @@ treatment. `catalog.json` is the source of truth for machine-readable status and
 - [Photo Doodle Story](photo-doodle-story.md) — real photographic cues with tiny line figures.
 - [Impasto Miniature World](impasto-miniature-world.md) — sculptural oil-paint miniature world.
 
-To add another treatment, follow the [contribution workflow](../../CONTRIBUTING.md). Each public
-Recipe must have a matching Skill package and catalog entry.
+For maintenance work, follow the [contribution workflow](../../CONTRIBUTING.md). Each existing
+public Recipe must retain its matching Skill package and catalog entry.

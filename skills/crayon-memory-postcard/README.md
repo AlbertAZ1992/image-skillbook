@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Crayon Memory Postcard Skill turns a real photograph into a warm, quirky wax-crayon
 recollection that feels like a personally observed travel memory. Install it in Codex and run
 it with GPT Image while keeping the source scene recognizable.

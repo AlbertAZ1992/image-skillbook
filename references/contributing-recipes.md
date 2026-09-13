@@ -1,5 +1,8 @@
 # Contributing Image Recipes
 
+> This is the historical curation workflow for the original seven independent Skills. Add new
+> visual styles to [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 ## Intake
 
 In the source repository, raw material belongs in ignored Markdown files under

@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Rubber Stamp Travel Journal Skill turns recognizable details from a place photograph into a
 small multi-color stamp that feels hand-carved and printed into an aged field journal. Install it
 in Codex and run it with GPT Image for tactile rubber-stamp art.

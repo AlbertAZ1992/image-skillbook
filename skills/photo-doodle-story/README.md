@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Photo Doodle Story Skill keeps the real photographic subject and adds a restrained miniature
 story told by a few thin, imperfect black-line characters. Install it in Codex and run it with
 GPT Image to add source-aware doodles without replacing the photograph.

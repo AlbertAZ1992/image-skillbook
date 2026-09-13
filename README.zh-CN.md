@@ -23,6 +23,24 @@ Image Skillbook 是一套开源图片处理工具集，包含 7 个可以独立�
 
 </div>
 
+## 后续更新已转到 Albert's Imagebook
+
+Image Skillbook 用 7 个独立 Skill 验证了最早的一批图片风格。已有安装方式和 Skill ID
+都会保留，现有用户可以继续使用。但随着风格越来越多，分别安装每个 Skill，再额外安装一个
+选型总控，让原本属于同一个创作工具的使用路径变得过于分散。
+
+后续新风格与主要维护已经转到
+[Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook)：安装一个 Skill，
+只记 `$albert-imagebook` 一个指令，就能调用一本持续增长的风格书。
+
+```bash
+npx --yes skills@1.5.24 add AlbertAZ1992/albert-imagebook \
+  --skill albert-imagebook --global --agent codex --yes
+```
+
+本仓库进入维护模式，只继续处理兼容性、安全和文档问题；新的视觉风格会加入
+Albert's Imagebook。
+
 ## 什么是 AI 图片 Skill？
 
 AI 图片 Skill 是一种可以安装给兼容 Agent 的执行说明，它会告诉 Agent 如何针对输入图片
@@ -288,13 +306,11 @@ npx skills add AlbertAZ1992/image-skillbook \
 Codex + GPT Image；Markdown 格式的执行合同也可以被其他兼容 Agent 读取。
 实际效果会随模型、输入图片和补充要求变化。
 
-## 添加一种图片处理方法
+## 维护范围
 
-看到好用的图片 Prompt，或者自己形成了稳定工作流，可以先把原始材料放进 Git 忽略的
-`prompt-inbox/`，记录来源，再把可复用的视觉决策整理为独立 Skill。
-
-具体的收集、创作、测试和发布流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。公共贡献应该
-包含独立编写的视觉合同与可以发布的示例，不能直接堆放未经审查的第三方 Prompt。
+本仓库仍接受针对 7 个独立 Skills 的兼容性、安全和文档修复。新风格请加入
+[Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook)，共用统一流程，
+不再增加新的安装 SKU。旧架构的维护方法继续保留在 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 验证本地仓库
 

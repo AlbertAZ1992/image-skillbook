@@ -1,5 +1,8 @@
 # Prompt Inbox
 
+> This inbox is retained for maintenance of the original seven Skills. Explore and publish new
+> styles in [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 Keep raw visual prompts here before they become public Image Skillbook recipes.
 
 Use either intake style:

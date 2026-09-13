@@ -2,6 +2,9 @@
 
 [← Explore every Image Skillbook style](../../README.md)
 
+> This independent Skill remains available. For one install and the growing style library, use
+> [Albert's Imagebook](https://github.com/AlbertAZ1992/albert-imagebook).
+
 The Impasto Miniature World Skill rebuilds a photograph as a compact world made from sculptural
 oil paint, palette-knife ridges, dragged edges, and luminous glaze. Install it in Codex and run
 it with GPT Image for a vivid photo-to-impasto transformation.
